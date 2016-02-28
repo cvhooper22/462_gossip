@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tattle</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<h2>Tattle</h2>
+	<h5>
+		Welcome! To get tattling just sign in with a username.<p/>
+		<i>Haven't registered yet?</i>  Don't worry! Just type a username and you will be ready to begin.
+		After that you can exchange messages in your own client and people will eventually hear them.  Have fun and be nice!<p/>
+	</h5>
+	<form>
+		<input type="text" placeholder="Enter Username">
+		<button type="submit">Get Started!</button>
+	</form>
+</body>
+</html>
