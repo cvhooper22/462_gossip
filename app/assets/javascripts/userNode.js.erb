@@ -1,0 +1,27 @@
+const GossipNode = {
+  state: {
+    messages: [{"MessageID": "ABCD-1234-ABCD-1234-ABCD-1234:5" ,
+                "Originator": "Phil",
+                "Text": "Hello World!"
+                },
+                {"MessageID": "ABCD-1234-ABCD-1234-ABCD-1234:6" ,
+                "Originator": "Phil",
+                "Text": "Hello World Again!"
+                }],
+    username: '',
+    uuid: '',
+  },
+
+  generateMessageListElement: function(message) {
+
+  },
+
+  init: function() {
+    this.state.username = $('.username').text();
+    this.state.uuid = $('.id').text();
+    for(var j = this.state.messages.length-1; j > -1; j--)
+    {
+      $('.message-list').append('<li>' + this.state.messages[j]['Text'] + '</li>');
+    }
+  }
+}

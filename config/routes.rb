@@ -5,8 +5,8 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'application#index'
   resources :user
-  get '/users/:uuid', to: 'user#show'
-  get '/:username', to: 'user#login'
+  post '/user/:uuid', to: 'user#notify'
+  get '/user/:username', to: 'user#show'
 
 
   # Example of regular route:

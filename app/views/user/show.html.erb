@@ -1,13 +1,26 @@
 <p id="notice"><%= notice %></p>
-
+<script>
+  $(document).ready(function(){
+    GossipNode.init();
+  });
+</script>
 <p>
   <h2>
-  	<%= @user.username %>'s Tattle-Tale Central
+  	<span class="username"><%= @user.username %></span>'s Tattle-Tale Central
   </h2>
-  <ul>
+  <h4>
+    <i>The 'Originator' sent with your messages is your username: <%= @user.username %><br/>
+    The UUID sent with your messages is: <span class="id"><%= @user.uuid %></span></i>
+  </h4>
+  <input class='gossip-input' type='text' placeholder="What's the Scuttlebutt?"/><button class='gossip-submit'>Share</button>
+  <p/>
+  <h5>The latest: </h5>
+  <ul class="message-list">
   	<li>Message 1</li>
   	<li>Message 2</li>
 	</ul>
 </p>
 
 <%= link_to 'View All Users', user_path %>
+
+
