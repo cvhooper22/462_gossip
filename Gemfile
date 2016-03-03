@@ -26,6 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'tzinfo-data'	
 gem 'react-rails', '~> 1.6.0'
 gem 'puma'
+gem 'websocket-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

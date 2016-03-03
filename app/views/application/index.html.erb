@@ -13,9 +13,17 @@
 		<i>Haven't registered yet?</i>  Don't worry! Just type a username and you will be ready to begin.
 		After that you can exchange messages in your own client and people will eventually hear them.  Have fun and be nice!<p/>
 	</h5>
-	<form>
-		<input type="text" placeholder="Enter Username">
-		<button type="submit">Get Started!</button>
-	</form>
+	<%= form_tag("user/login", method: "get") do %>
+    <%= label_tag(:username, "Username") %>
+    <%= text_field_tag(:username) %>
+    <%= submit_tag("Get Started!") %>
+  <% end %> 
+  <p/>
+  <i>Please no duplicates, here's a list of registered usernames:<br/>
+  <ul>
+    <% @users.each do |user| %>
+      <li><%= user.username %></li>
+    <% end %>
+  </ul>
 </body>
 </html>

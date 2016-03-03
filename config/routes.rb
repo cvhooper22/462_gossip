@@ -4,9 +4,14 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'application#index'
-  resources :user
+  get '/user', to: 'user#index'
+  get '/user/login', to: 'user#login', :as => :login
+  get '/user/:id', to: 'user#show'
   post '/user/:uuid', to: 'user#notify'
   get '/user/:username', to: 'user#show'
+  get '/test', to: 'user#test'
+  post '/tnotify', to: 'user#tnotify'
+  get 'login', to: 'application#login'
 
 
   # Example of regular route:

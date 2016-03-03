@@ -1,6 +1,5 @@
 class UserController < ApplicationController
-	include ActionController::Live
-  def index
+    def index
 		@users = User.all
 	end
 
@@ -20,8 +19,27 @@ class UserController < ApplicationController
 
 	end
 
+    def notify
+        byebug
+        @user = User.by_uuid(params[:uuid]).first
+        redirect_to(action: 'show', id: @user.username, message: params[:message] )
+    end
+
+    def test
+    end
+
+    def tnotify
+        byebug
+        render nothing: true
+    end
+
 	def login
-		@user = User.by_username(params[:id]).first
+		@user = User.by_username(params['username']).first
+        if @user.nil?
+            uuid = SecureRandom.uuid
+            @user = User.create(:username => params['username'], :uuid => uuid)
+        end
+        redirect_to :action => 'show', :id => @user.username 
 	end
 
 end
