@@ -11,4 +11,13 @@ WebsocketRails::EventMap.describe do
   #     subscribe :new, :to => ProductController, :with_method => :new_product
   #   end
   # The above will handle an event triggered on the client like `product.new`.
+  
+  subscribe :register, :to => GossipnodeController, :with_method => :register
+  # The :client_connected method is fired automatically when a new client connects
+  subscribe :client_connected, :to => GossipnodeController, :with_method => :client_connected
+  # The :client_disconnected method is fired automatically when a client disconnects
+  subscribe :client_disconnected, :to => GossipnodeController, :with_method => :delete_user
+  # The :connection_closed method is fired automatically when a client loses connection without sending a disconnect frame.
+  subscribe :connection_closed, :to => GossipnodeController, :with_method => :delete_user
+
 end

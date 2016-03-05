@@ -1,0 +1,5 @@
+Writing PID to /Users/matthew.freeman/462/462_gossip/tmp/pids/websocket_rails.pid
+Thin web server (v1.6.4 codename Gob Bluth)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3001, CTRL+C to stop
+Exiting!

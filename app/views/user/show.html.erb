@@ -8,16 +8,15 @@
   <h2>
   	<span class="username"><%= @user.username %></span>'s Tattle-Tale Central
   </h2>
-  <h4>
+  <h4>If you close this tab/window all messages will be lost and you'll have to start from scratch</h4>
+  <h5>
     <i>The 'Originator' sent with your messages is your username: <%= @user.username %><br/>
     The UUID sent with your messages is: <span class="id"><%= @user.uuid %></span></i>
-  </h4>
+  </h5>
   <input class='gossip-input' type='text' placeholder="What's the Scuttlebutt?"/><button class='gossip-submit'>Share</button>
   <p/>
   <h5>The latest: </h5>
   <ul class="message-list">
-  	<li>Message 1</li>
-  	<li>Message 2</li>
 	</ul>
 </p>
 

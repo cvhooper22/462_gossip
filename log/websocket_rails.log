@@ -1,15 +1,332 @@
-# Logfile created on 2016-03-02 01:13:23 -0700 by logger.rb/47272
-I [2016-03-02 01:13:23.306] [[32mSynchronization[0m] Server Registered: VwB77GciPuVwOBqXZFIGYg
-I [2016-03-02 01:17:41.329] [[32mSynchronization[0m] Server Registered: rzfbBuVDfU68eEH2HUb1Tg
-I [2016-03-02 01:18:12.487] [[32mSynchronization[0m] Server Registered: _1wonxu1V6S7c-GNWGThOw
-I [2016-03-02 01:18:50.951] [[32mConnectionManager[0m] Connection opened: #<Connection::08cf83baff9f67034e11>
-I [2016-03-02 01:19:10.935] [[32mConnectionManager[0m] Connection closed: #<Connection::08cf83baff9f67034e11>
-I [2016-03-02 01:22:50.844] [[32mConnectionManager[0m] Connection closed: #<Connection::08cf83baff9f67034e11>
-I [2016-03-02 01:31:00.579] [[32mSynchronization[0m] Server Removed: _1wonxu1V6S7c-GNWGThOw
-I [2016-03-02 01:31:00.584] [[32mSynchronization[0m] Server Removed: _1wonxu1V6S7c-GNWGThOw
-I [2016-03-02 01:31:09.864] [[32mSynchronization[0m] Server Registered: 6Zgn_VaWtDGFe5rm-PjqbQ
-I [2016-03-02 01:31:15.515] [[32mConnectionManager[0m] Connection opened: #<Connection::eca586de0823edaf6562>
-I [2016-03-02 01:31:35.505] [[32mConnectionManager[0m] Connection closed: #<Connection::eca586de0823edaf6562>
-I [2016-03-02 01:35:15.406] [[32mConnectionManager[0m] Connection closed: #<Connection::eca586de0823edaf6562>
-I [2016-03-02 02:09:27.423] [[32mSynchronization[0m] Server Removed: 6Zgn_VaWtDGFe5rm-PjqbQ
-I [2016-03-02 02:09:27.428] [[32mSynchronization[0m] Server Removed: 6Zgn_VaWtDGFe5rm-PjqbQ
+I [2016-03-04 20:02:27.338] [[32mConnectionManager[0m] Connection opened: #<Connection::eb7486a6a7e262026426>
+I [2016-03-04 20:02:27.341] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-04 20:02:27.341] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-04 20:02:27.341] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"eb7486a6a7e262026426"}
+I [2016-03-04 20:02:27.341] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::eb7486a6a7e262026426>
+I [2016-03-04 20:02:27.342] [[32mDispatcher[0m] Event client_connected Finished in 0.000311 seconds
+I [2016-03-04 20:06:32.375] [[32mConnectionManager[0m] Connection closed: #<Connection::eb7486a6a7e262026426>
+I [2016-03-04 20:06:32.375] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-04 20:06:32.375] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-04 20:06:32.375] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::eb7486a6a7e262026426>
+I [2016-03-04 20:06:32.375] [[32mDispatcher[0m] Event client_disconnected Finished in 0.000295 seconds
+I [2016-03-04 20:06:32.582] [[32mConnectionManager[0m] Connection opened: #<Connection::f7ae574fbee3607af78c>
+I [2016-03-04 20:06:32.583] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-04 20:06:32.583] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-04 20:06:32.583] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"f7ae574fbee3607af78c"}
+I [2016-03-04 20:06:32.583] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f7ae574fbee3607af78c>
+I [2016-03-04 20:06:32.584] [[32mDispatcher[0m] Event client_connected Finished in 0.000294 seconds
+I [2016-03-04 20:49:33.598] [[32mConnectionManager[0m] Connection closed: #<Connection::f7ae574fbee3607af78c>
+I [2016-03-04 20:49:33.599] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-04 20:49:33.599] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-04 20:49:33.599] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::f7ae574fbee3607af78c>
+I [2016-03-04 20:49:33.599] [[32mDispatcher[0m] Event client_disconnected Finished in 0.000663 seconds
+I [2016-03-04 20:49:33.804] [[32mConnectionManager[0m] Connection opened: #<Connection::ca0a57685e3df8f7f933>
+I [2016-03-04 20:49:33.805] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-04 20:49:33.805] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-04 20:49:33.805] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"ca0a57685e3df8f7f933"}
+I [2016-03-04 20:49:33.805] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::ca0a57685e3df8f7f933>
+I [2016-03-04 20:49:33.805] [[32mDispatcher[0m] Event client_connected Finished in 0.000294 seconds
+I [2016-03-04 20:51:32.526] [[32mConnectionManager[0m] Connection closed: #<Connection::ca0a57685e3df8f7f933>
+I [2016-03-04 20:51:32.526] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-04 20:51:32.526] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-04 20:51:32.526] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::ca0a57685e3df8f7f933>
+I [2016-03-04 20:51:32.526] [[32mDispatcher[0m] Event client_disconnected Finished in 0.000311 seconds
+I [2016-03-04 20:51:32.741] [[32mConnectionManager[0m] Connection opened: #<Connection::c04dee462184537f5870>
+I [2016-03-04 20:51:32.741] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-04 20:51:32.741] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-04 20:51:32.741] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"c04dee462184537f5870"}
+I [2016-03-04 20:51:32.741] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c04dee462184537f5870>
+I [2016-03-04 20:51:32.742] [[32mDispatcher[0m] Event client_connected Finished in 0.000246 seconds
+I [2016-03-04 20:58:00.172] [[32mConnectionManager[0m] Connection closed: #<Connection::c04dee462184537f5870>
+I [2016-03-04 20:58:00.172] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-04 20:58:00.172] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-04 20:58:00.172] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c04dee462184537f5870>
+I [2016-03-04 20:58:00.173] [[32mDispatcher[0m] Event client_disconnected Finished in 0.000364 seconds
+I [2016-03-04 20:58:00.392] [[32mConnectionManager[0m] Connection opened: #<Connection::b6232e8f2c9f51c6f31b>
+I [2016-03-04 20:58:00.393] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-04 20:58:00.393] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-04 20:58:00.393] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"b6232e8f2c9f51c6f31b"}
+I [2016-03-04 20:58:00.393] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b6232e8f2c9f51c6f31b>
+I [2016-03-04 20:58:00.393] [[32mDispatcher[0m] Event client_connected Finished in 0.000264 seconds
+I [2016-03-04 20:58:00.407] [[32mDispatcher[0m] Started Event: register
+I [2016-03-04 20:58:00.407] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-04 20:58:00.407] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-04 20:58:00.407] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b6232e8f2c9f51c6f31b>
+E [2016-03-04 20:58:42.930] [[31mDispatcher[0m] NoMethodError: undefined method `guid' for "bdcde4f3-cf32-4ee0-b954-d5a5f9044685":String
+E [2016-03-04 20:58:42.930] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:9:in `register'
+E [2016-03-04 20:58:42.930] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-04 20:58:42.930] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-04 20:58:42.930] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-04 20:58:42.931] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-04 20:58:42.931] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-04 20:58:42.931] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-04 20:58:42.931] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-04 20:58:42.931] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-04 20:58:42.931] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-04 20:58:42.931] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-04 20:58:42.931] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-04 21:26:19.942] [[32mConnectionManager[0m] Connection closed: #<Connection::b6232e8f2c9f51c6f31b>
+I [2016-03-04 21:26:19.942] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-04 21:26:19.942] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-04 21:26:19.942] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b6232e8f2c9f51c6f31b>
+I [2016-03-04 21:26:19.943] [[32mDispatcher[0m] Event client_disconnected Finished in 0.000333 seconds
+I [2016-03-04 21:26:20.148] [[32mConnectionManager[0m] Connection opened: #<Connection::6635ec76e824cfce67b1>
+I [2016-03-04 21:26:20.149] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-04 21:26:20.149] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-04 21:26:20.149] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"6635ec76e824cfce67b1"}
+I [2016-03-04 21:26:20.149] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6635ec76e824cfce67b1>
+I [2016-03-04 21:26:20.149] [[32mDispatcher[0m] Event client_connected Finished in 0.000284 seconds
+I [2016-03-04 21:26:20.164] [[32mDispatcher[0m] Started Event: register
+I [2016-03-04 21:26:20.164] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-04 21:26:20.164] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-04 21:26:20.164] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6635ec76e824cfce67b1>
+E [2016-03-04 21:26:28.168] [[31mDispatcher[0m] NoMethodError: undefined method `guid' for "bdcde4f3-cf32-4ee0-b954-d5a5f9044685":String
+E [2016-03-04 21:26:28.168] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:9:in `register'
+E [2016-03-04 21:26:28.168] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-04 21:26:28.168] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-04 21:26:28.168] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-04 21:26:28.168] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-04 21:26:28.168] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-04 21:26:28.168] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-04 21:26:28.168] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-04 21:26:28.169] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-04 21:26:28.169] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-04 21:26:28.169] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-04 21:26:28.169] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-04 21:27:24.133] [[32mConnectionManager[0m] Connection closed: #<Connection::6635ec76e824cfce67b1>
+I [2016-03-04 21:27:24.133] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-04 21:27:24.133] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-04 21:27:24.133] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6635ec76e824cfce67b1>
+I [2016-03-04 21:27:24.134] [[32mDispatcher[0m] Event client_disconnected Finished in 0.000543 seconds
+I [2016-03-04 21:27:24.345] [[32mConnectionManager[0m] Connection opened: #<Connection::dc87f59895b9f2039b8d>
+I [2016-03-04 21:27:24.345] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-04 21:27:24.345] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-04 21:27:24.345] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"dc87f59895b9f2039b8d"}
+I [2016-03-04 21:27:24.346] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc87f59895b9f2039b8d>
+I [2016-03-04 21:27:24.346] [[32mDispatcher[0m] Event client_connected Finished in 0.000267 seconds
+I [2016-03-04 21:27:24.355] [[32mDispatcher[0m] Started Event: register
+I [2016-03-04 21:27:24.355] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-04 21:27:24.355] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-04 21:27:24.355] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc87f59895b9f2039b8d>
+I [2016-03-04 21:27:30.197] [[32mDispatcher[0m] Event register Finished in 5.842055 seconds
+I [2016-03-04 21:32:43.666] [[32mConnectionManager[0m] Connection closed: #<Connection::dc87f59895b9f2039b8d>
+I [2016-03-04 21:32:43.666] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-04 21:32:43.666] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-04 21:32:43.666] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::dc87f59895b9f2039b8d>
+I [2016-03-04 21:58:56.751] [[32mDispatcher[0m] Event client_disconnected Finished in 1573.084822 seconds
+I [2016-03-04 21:59:14.280] [[32mConnectionManager[0m] Connection opened: #<Connection::e1d72e532d41613edfc6>
+I [2016-03-04 21:59:14.281] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-04 21:59:14.281] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-04 21:59:14.281] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"e1d72e532d41613edfc6"}
+I [2016-03-04 21:59:14.281] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e1d72e532d41613edfc6>
+I [2016-03-04 21:59:14.281] [[32mDispatcher[0m] Event client_connected Finished in 0.000458 seconds
+I [2016-03-04 21:59:14.295] [[32mDispatcher[0m] Started Event: register
+I [2016-03-04 21:59:14.295] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-04 21:59:14.295] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-04 21:59:14.295] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e1d72e532d41613edfc6>
+I [2016-03-04 21:59:19.104] [[32mDispatcher[0m] Event register Finished in 4.714521 seconds
+I [2016-03-04 21:59:32.404] [[32mConnectionManager[0m] Connection closed: #<Connection::e1d72e532d41613edfc6>
+I [2016-03-04 21:59:32.404] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-04 21:59:32.404] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-04 21:59:32.404] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e1d72e532d41613edfc6>
+I [2016-03-04 22:01:49.844] [[32mDispatcher[0m] Event client_disconnected Finished in 137.440107 seconds
+I [2016-03-04 22:02:28.120] [[32mConnectionManager[0m] Connection opened: #<Connection::fc8b0de7c589535fcab9>
+I [2016-03-04 22:02:28.121] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-04 22:02:28.121] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-04 22:02:28.121] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"fc8b0de7c589535fcab9"}
+I [2016-03-04 22:02:28.121] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fc8b0de7c589535fcab9>
+I [2016-03-04 22:02:28.121] [[32mDispatcher[0m] Event client_connected Finished in 0.000316 seconds
+I [2016-03-04 22:02:28.137] [[32mDispatcher[0m] Started Event: register
+I [2016-03-04 22:02:28.138] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-04 22:02:28.138] [[32mDispatcher[0m] [36mData:[0m "c22b071d-d853-44ab-9ca2-8ef2c0efab62"
+I [2016-03-04 22:02:28.138] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fc8b0de7c589535fcab9>
+I [2016-03-04 22:02:48.606] [[32mDispatcher[0m] Event register Finished in 20.46827 seconds
+I [2016-03-04 22:03:02.155] [[32mConnectionManager[0m] Connection closed: #<Connection::fc8b0de7c589535fcab9>
+I [2016-03-04 22:03:02.156] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-04 22:03:02.156] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-04 22:03:02.156] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::fc8b0de7c589535fcab9>
+I [2016-03-04 22:04:35.262] [[32mDispatcher[0m] Event client_disconnected Finished in 93.106097 seconds
+I [2016-03-04 22:05:49.543] [[32mConnectionManager[0m] Connection opened: #<Connection::cd88b062b94ceeb251db>
+I [2016-03-04 22:05:49.543] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-04 22:05:49.543] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-04 22:05:49.544] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"cd88b062b94ceeb251db"}
+I [2016-03-04 22:05:49.544] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cd88b062b94ceeb251db>
+I [2016-03-04 22:05:49.544] [[32mDispatcher[0m] Event client_connected Finished in 0.000369 seconds
+I [2016-03-04 22:05:49.559] [[32mDispatcher[0m] Started Event: register
+I [2016-03-04 22:05:49.560] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-04 22:05:49.560] [[32mDispatcher[0m] [36mData:[0m "c22b071d-d853-44ab-9ca2-8ef2c0efab62"
+I [2016-03-04 22:05:49.560] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cd88b062b94ceeb251db>
+I [2016-03-04 22:05:49.560] [[32mDispatcher[0m] Event register Finished in 0.000396 seconds
+I [2016-03-04 22:05:59.260] [[32mConnectionManager[0m] Connection closed: #<Connection::cd88b062b94ceeb251db>
+I [2016-03-04 22:05:59.261] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-04 22:05:59.261] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-04 22:05:59.261] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cd88b062b94ceeb251db>
+I [2016-03-04 22:11:51.365] [[32mDispatcher[0m] Event client_disconnected Finished in 352.104036 seconds
+I [2016-03-04 22:33:25.505] [[32mConnectionManager[0m] Connection opened: #<Connection::af952ab466f2f0bd5b5a>
+I [2016-03-04 22:33:25.506] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-04 22:33:25.506] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-04 22:33:25.506] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"af952ab466f2f0bd5b5a"}
+I [2016-03-04 22:33:25.507] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af952ab466f2f0bd5b5a>
+I [2016-03-04 22:33:25.507] [[32mDispatcher[0m] Event client_connected Finished in 0.000594 seconds
+I [2016-03-04 22:33:25.532] [[32mDispatcher[0m] Started Event: register
+I [2016-03-04 22:33:25.533] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-04 22:33:25.533] [[32mDispatcher[0m] [36mData:[0m "c22b071d-d853-44ab-9ca2-8ef2c0efab62"
+I [2016-03-04 22:33:25.533] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af952ab466f2f0bd5b5a>
+I [2016-03-04 22:33:25.533] [[32mDispatcher[0m] Event register Finished in 0.000391 seconds
+I [2016-03-04 22:33:32.262] [[32mConnectionManager[0m] Connection closed: #<Connection::af952ab466f2f0bd5b5a>
+I [2016-03-04 22:33:32.262] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-04 22:33:32.262] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-04 22:33:32.262] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::af952ab466f2f0bd5b5a>
+I [2016-03-04 22:33:36.867] [[32mDispatcher[0m] Event client_disconnected Finished in 4.605236 seconds
+I [2016-03-04 22:34:12.914] [[32mConnectionManager[0m] Connection opened: #<Connection::8e61269e115dc883b71e>
+I [2016-03-04 22:34:12.915] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-04 22:34:12.915] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-04 22:34:12.915] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"8e61269e115dc883b71e"}
+I [2016-03-04 22:34:12.915] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::8e61269e115dc883b71e>
+I [2016-03-04 22:34:12.915] [[32mDispatcher[0m] Event client_connected Finished in 0.000329 seconds
+I [2016-03-04 22:34:12.939] [[32mDispatcher[0m] Started Event: register
+I [2016-03-04 22:34:12.939] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-04 22:34:12.939] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-04 22:34:12.940] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::8e61269e115dc883b71e>
+I [2016-03-04 22:34:12.940] [[32mDispatcher[0m] Event register Finished in 0.000399 seconds
+I [2016-03-04 22:34:23.152] [[32mConnectionManager[0m] Connection closed: #<Connection::8e61269e115dc883b71e>
+I [2016-03-04 22:34:23.152] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-04 22:34:23.152] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-04 22:34:23.152] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::8e61269e115dc883b71e>
+I [2016-03-04 22:34:32.672] [[32mDispatcher[0m] Event client_disconnected Finished in 8.99906 seconds
+I [2016-03-04 22:35:08.833] [[32mConnectionManager[0m] Connection opened: #<Connection::cd7cd386de0671cff0f7>
+I [2016-03-04 22:35:08.833] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-04 22:35:08.833] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-04 22:35:08.834] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"cd7cd386de0671cff0f7"}
+I [2016-03-04 22:35:08.834] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cd7cd386de0671cff0f7>
+I [2016-03-04 22:35:08.834] [[32mDispatcher[0m] Event client_connected Finished in 0.000362 seconds
+I [2016-03-04 22:35:08.846] [[32mDispatcher[0m] Started Event: register
+I [2016-03-04 22:35:08.846] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-04 22:35:08.846] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-04 22:35:08.846] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cd7cd386de0671cff0f7>
+I [2016-03-04 22:35:08.846] [[32mDispatcher[0m] Event register Finished in 0.000415 seconds
+I [2016-03-04 22:35:11.122] [[32mConnectionManager[0m] Connection closed: #<Connection::cd7cd386de0671cff0f7>
+I [2016-03-04 22:35:11.122] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-04 22:35:11.122] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-04 22:35:11.122] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cd7cd386de0671cff0f7>
+I [2016-03-04 22:35:34.261] [[32mDispatcher[0m] Event client_disconnected Finished in 23.138541 seconds
+I [2016-03-04 22:35:58.215] [[32mConnectionManager[0m] Connection opened: #<Connection::9c714e9e6601ea07a40a>
+I [2016-03-04 22:35:58.216] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-04 22:35:58.216] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-04 22:35:58.216] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"9c714e9e6601ea07a40a"}
+I [2016-03-04 22:35:58.216] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::9c714e9e6601ea07a40a>
+I [2016-03-04 22:35:58.217] [[32mDispatcher[0m] Event client_connected Finished in 0.000602 seconds
+I [2016-03-04 22:35:58.229] [[32mDispatcher[0m] Started Event: register
+I [2016-03-04 22:35:58.230] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-04 22:35:58.230] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-04 22:35:58.230] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::9c714e9e6601ea07a40a>
+I [2016-03-04 22:35:58.230] [[32mDispatcher[0m] Event register Finished in 0.000395 seconds
+I [2016-03-04 22:36:00.823] [[32mConnectionManager[0m] Connection closed: #<Connection::9c714e9e6601ea07a40a>
+I [2016-03-04 22:36:00.825] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-04 22:36:00.825] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-04 22:36:00.826] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::9c714e9e6601ea07a40a>
+I [2016-03-04 22:36:39.427] [[32mDispatcher[0m] Event client_disconnected Finished in 38.960043 seconds
+I [2016-03-04 22:37:47.324] [[32mConnectionManager[0m] Connection opened: #<Connection::0472f878c4b11fce7a38>
+I [2016-03-04 22:37:47.325] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-04 22:37:47.325] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-04 22:37:47.325] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"0472f878c4b11fce7a38"}
+I [2016-03-04 22:37:47.325] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0472f878c4b11fce7a38>
+I [2016-03-04 22:37:47.325] [[32mDispatcher[0m] Event client_connected Finished in 0.00041 seconds
+I [2016-03-04 22:37:47.338] [[32mDispatcher[0m] Started Event: register
+I [2016-03-04 22:37:47.338] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-04 22:37:47.338] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-04 22:37:47.338] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0472f878c4b11fce7a38>
+I [2016-03-04 22:37:47.338] [[32mDispatcher[0m] Event register Finished in 0.000556 seconds
+I [2016-03-04 22:37:49.822] [[32mConnectionManager[0m] Connection closed: #<Connection::0472f878c4b11fce7a38>
+I [2016-03-04 22:37:49.822] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-04 22:37:49.822] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-04 22:37:49.822] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0472f878c4b11fce7a38>
+I [2016-03-04 22:38:02.895] [[32mDispatcher[0m] Event client_disconnected Finished in 13.0735 seconds
+I [2016-03-04 22:42:37.887] [[32mConnectionManager[0m] Connection opened: #<Connection::b0c97a3f538108d905c3>
+I [2016-03-04 22:42:37.887] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-04 22:42:37.887] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-04 22:42:37.888] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"b0c97a3f538108d905c3"}
+I [2016-03-04 22:42:37.888] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b0c97a3f538108d905c3>
+I [2016-03-04 22:42:37.888] [[32mDispatcher[0m] Event client_connected Finished in 0.000451 seconds
+I [2016-03-04 22:42:37.900] [[32mDispatcher[0m] Started Event: register
+I [2016-03-04 22:42:37.900] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-04 22:42:37.900] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-04 22:42:37.901] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b0c97a3f538108d905c3>
+I [2016-03-04 22:42:37.901] [[32mDispatcher[0m] Event register Finished in 0.000401 seconds
+I [2016-03-04 22:42:40.534] [[32mConnectionManager[0m] Connection closed: #<Connection::b0c97a3f538108d905c3>
+I [2016-03-04 22:42:40.534] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-04 22:42:40.534] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-04 22:42:40.534] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::b0c97a3f538108d905c3>
+E [2016-03-04 22:42:40.535] [[31mDispatcher[0m] NoMethodError: undefined method `delete' for WebsocketRails:Module
+E [2016-03-04 22:42:40.535] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:23:in `delete_user'
+E [2016-03-04 22:42:40.535] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-04 22:42:40.535] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-04 22:42:40.535] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-04 22:42:40.535] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-04 22:42:40.535] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-04 22:42:40.535] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-04 22:42:40.535] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-04 22:42:40.535] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-04 22:42:40.535] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-04 22:42:40.535] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-04 22:42:40.535] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-04 22:43:27.736] [[32mConnectionManager[0m] Connection opened: #<Connection::89baf09524a1ddbc71d6>
+I [2016-03-04 22:43:27.737] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-04 22:43:27.737] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-04 22:43:27.737] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"89baf09524a1ddbc71d6"}
+I [2016-03-04 22:43:27.737] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::89baf09524a1ddbc71d6>
+I [2016-03-04 22:43:27.737] [[32mDispatcher[0m] Event client_connected Finished in 0.00043 seconds
+I [2016-03-04 22:43:27.745] [[32mDispatcher[0m] Started Event: register
+I [2016-03-04 22:43:27.746] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-04 22:43:27.746] [[32mDispatcher[0m] [36mData:[0m "c22b071d-d853-44ab-9ca2-8ef2c0efab62"
+I [2016-03-04 22:43:27.746] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::89baf09524a1ddbc71d6>
+I [2016-03-04 22:43:27.747] [[32mDispatcher[0m] Event register Finished in 0.001132 seconds
+I [2016-03-04 22:43:30.508] [[32mConnectionManager[0m] Connection closed: #<Connection::89baf09524a1ddbc71d6>
+I [2016-03-04 22:43:30.508] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-04 22:43:30.508] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-04 22:43:30.508] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::89baf09524a1ddbc71d6>
+E [2016-03-04 22:45:26.238] [[31mDispatcher[0m] NoMethodError: undefined method `delete' for WebsocketRails:Module
+E [2016-03-04 22:45:26.238] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:24:in `delete_user'
+E [2016-03-04 22:45:26.238] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-04 22:45:26.238] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-04 22:45:26.238] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-04 22:45:26.238] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-04 22:45:26.238] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-04 22:45:26.238] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-04 22:45:26.238] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-04 22:45:26.238] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-04 22:45:26.238] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-04 22:45:26.238] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-04 22:45:26.238] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-04 22:45:52.123] [[32mConnectionManager[0m] Connection opened: #<Connection::6135f5885258fed8f16f>
+I [2016-03-04 22:45:52.124] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-04 22:45:52.124] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-04 22:45:52.124] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"6135f5885258fed8f16f"}
+I [2016-03-04 22:45:52.124] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6135f5885258fed8f16f>
+I [2016-03-04 22:45:52.125] [[32mDispatcher[0m] Event client_connected Finished in 0.000448 seconds
+I [2016-03-04 22:45:52.139] [[32mDispatcher[0m] Started Event: register
+I [2016-03-04 22:45:52.139] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-04 22:45:52.139] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-04 22:45:52.139] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6135f5885258fed8f16f>
+I [2016-03-04 22:45:52.140] [[32mDispatcher[0m] Event register Finished in 0.000627 seconds
+I [2016-03-04 22:45:54.559] [[32mConnectionManager[0m] Connection closed: #<Connection::6135f5885258fed8f16f>
+I [2016-03-04 22:45:54.559] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-04 22:45:54.559] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-04 22:45:54.559] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6135f5885258fed8f16f>
+I [2016-03-04 22:46:14.981] [[32mDispatcher[0m] Event client_disconnected Finished in 20.421572 seconds
+I [2016-03-04 22:57:05.861] [[32mConnectionManager[0m] Connection opened: #<Connection::5425a314e5dcc44725c4>
+I [2016-03-04 22:57:05.862] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-04 22:57:05.862] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-04 22:57:05.862] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"5425a314e5dcc44725c4"}
+I [2016-03-04 22:57:05.862] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5425a314e5dcc44725c4>
+I [2016-03-04 22:57:05.863] [[32mDispatcher[0m] Event client_connected Finished in 0.000315 seconds
+I [2016-03-04 22:57:05.880] [[32mDispatcher[0m] Started Event: register
+I [2016-03-04 22:57:05.880] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-04 22:57:05.880] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-04 22:57:05.880] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5425a314e5dcc44725c4>
+I [2016-03-04 22:57:05.880] [[32mDispatcher[0m] Event register Finished in 0.000341 seconds
+I [2016-03-04 23:01:34.728] [[32mConnectionManager[0m] Connection closed: #<Connection::5425a314e5dcc44725c4>

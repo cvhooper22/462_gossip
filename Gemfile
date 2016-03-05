@@ -27,6 +27,7 @@ gem 'tzinfo-data'
 gem 'react-rails', '~> 1.6.0'
 gem 'puma'
 gem 'websocket-rails'
+gem 'faye-websocket', '0.10.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

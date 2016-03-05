@@ -10,10 +10,21 @@ const GossipNode = {
                 }],
     username: '',
     uuid: '',
+    dispatcher: {},
   },
 
   generateMessageListElement: function(message) {
 
+  },
+
+  onConnectionOpen: function(data) {
+    console.log('onConnectionOpen fixed, here the data', data);
+    console.log('Connection open, attempting to trigger event');
+    this.state.dispatcher.trigger('register', this.state.uuid);
+  },
+
+  onMessageReceived: function(data) {
+    console.log('Message received', data);
   },
 
   init: function() {
@@ -22,6 +33,14 @@ const GossipNode = {
     for(var j = this.state.messages.length-1; j > -1; j--)
     {
       $('.message-list').append('<li>' + this.state.messages[j]['Text'] + '</li>');
+    }
+    try {
+      this.state.dispatcher = new WebSocketRails('localhost:3000/websocket');
+      this.state.dispatcher.on_open = this.onConnectionOpen.bind(this);
+      this.state.dispatcher.bind('test', this.onMessageReceived.bind(this));
+      console.log('State of dispatcher: ', this.state.dispatcher.state);
+    } catch (err) {
+      alert('There was an error setting up WebSocketRails\n' + err.message);
     }
   }
 }
