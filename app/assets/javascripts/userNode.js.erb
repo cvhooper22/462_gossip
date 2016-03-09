@@ -1,4 +1,5 @@
 const GossipNode = {
+  url: '',
   state: {
     messages: [{"MessageID": "ABCD-1234-ABCD-1234-ABCD-1234:5" ,
                 "Originator": "Phil",
@@ -8,9 +9,23 @@ const GossipNode = {
                 "Originator": "Phil",
                 "Text": "Hello World Again!"
                 }],
+    wantLog: {
+      "ABCD-1234-ABCD-1234-ABCD-125A": 3,
+      "ABCD-1234-ABCD-1234-ABCD-129B": 5,
+      "ABCD-1234-ABCD-1234-ABCD-123C": 10,
+    },
     username: '',
     uuid: '',
     dispatcher: {},
+    peers: ['ABC-123', 'DEF-456', 'GHI-789'],
+    peerMap: {
+      'ABC-123': 'http://localhost:3000/gossip/ABC-123', 
+      'DEF-456': 'http://localhost:3000/gossip/DEF-456', 
+      'GHI-789': 'http://localhost:3000/gossip/GHI-789',
+    }
+    numSent: 0,
+    messageQueue: ['message1', 'message2','message3'],
+    messagesSent: [],
   },
 
   generateMessageListElement: function(message) {
@@ -27,9 +42,89 @@ const GossipNode = {
     console.log('Message received', data);
   },
 
+  propagate: function(this) {
+    console.log('send message');
+    const peer = this.getPeer();
+    if (!peer.length) {
+      console.log('no peers');
+      return;
+    }
+
+    const message = prepareMessage(peer);
+    if ($.isEmptyObject(message)) {
+      console.log('no message to send');
+      return;
+    }
+
+    const peerUrl = this.state.peerMap[peer];
+    this.sendMessage(message, peerUrl);
+  },
+
+  getPeer: function() {
+    const numberOfPeers = this.state.peers.length;
+    if (numberOfPeers) {
+      const randIndex = Math.floor(Math.random() * ((numberOfPeers - 1) - 0 + 1)) + 0;
+      const peer = this.state.peers[randIndex];
+      return peer;
+    } else {
+      return '';
+    }
+  },
+
+  prepareMessage: function(peer) {
+    // idea to use this kind of binary random pick from: http://stackoverflow.com/questions/9730966/how-to-decide-between-two-numbers-randomly-using-javascript
+    if (Math.round(Math.random())) {
+      return prepareWant(peer);
+    } else {
+      return prepareRumor(peer);
+    }
+  },
+
+  prepareWant: function(peer) {
+    if ($.isEmptyObject(this.state.wantLog)) {
+      return {};
+    }
+    return {
+      'Want': this.state.wantLog,
+      'EndPoint': this.url,
+    }
+  },
+
+  prepareRumor: function(peer) {
+    const message = this.getNextMessage();
+    const id = this.state.uuid + this.state.numSent;
+    if (message.length) {
+      return {
+        'Rumor': {
+          'MessageID': id,
+          'Originator': this.state.username,
+          'Text': message;
+        }
+        'EndPoint': this.url,
+      }
+    }
+    return {};
+  },
+
+  getNextMessage: function() {
+    if (this.state.messageQueue.length) {
+      const nextMessage = this.state.messageQueue[0];
+      const newQueue = this.state.messageQueue.slice(1);
+      this.state.messageQueue = newQueue;
+      return nextMessage;
+    } 
+    return '';
+  },
+
+  sendMessage: function(peerUrl, message) {
+    console.log('message sent', message);
+    console.log('to', peerUrl);
+  },
+
   init: function() {
     this.state.username = $('.username').text();
     this.state.uuid = $('.id').text();
+    this.url = 'http://localhost:3000/gossip/' + this.state.uuid;
     for(var j = this.state.messages.length-1; j > -1; j--)
     {
       $('.message-list').append('<li>' + this.state.messages[j]['Text'] + '</li>');
@@ -42,5 +137,7 @@ const GossipNode = {
     } catch (err) {
       alert('There was an error setting up WebSocketRails\n' + err.message);
     }
+
+    setTimeout(this.propagate(), 1000, this);
   }
 }
