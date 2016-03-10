@@ -4,19 +4,7 @@ class UserController < ApplicationController
 	end
 
 	def show
-    # response.headers['Content-Type'] = 'text/event-stream'
-    # # sse = SSE.new(response.stream)
-    # begin
-  		# @user = User.by_uuid(params[:id]).first
-    #   sse.write(@user.to_json)
-    # rescue IOError
-    #   puts 'Client Disconnected'
-    # ensure
-    #   sse.close
-    # end
-    # render nothing: true
-    @user = User.by_username(params[:id]).first
-
+        @user = User.by_username(params[:id]).first
 	end
 
     def notify
@@ -37,7 +25,9 @@ class UserController < ApplicationController
 		@user = User.by_username(params['username']).first
         if @user.nil?
             uuid = SecureRandom.uuid
-            @user = User.create(:username => params['username'], :uuid => uuid)
+            @user = User.create(:username => params['username'], :uuid => uuid, :active => true)
+        else
+            @user.update(active: true)
         end
         redirect_to :action => 'show', :id => @user.username 
 	end

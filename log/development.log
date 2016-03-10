@@ -873,3 +873,1829 @@ Started POST "/tnotify" for 127.0.0.1 at 2016-03-04 22:57:13 -0700
 Processing by UserController#tnotify as */*
   Rendered text template (0.0ms)
 Completed 200 OK in 219289ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 20:26:16 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered application/index.html.erb within layouts/application (758.6ms)
+Completed 200 OK in 792ms (Views: 782.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/user.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/websocket_rails/abstract_connection.self-c59ade07c40033b31f560ae7c6681d3ecc9eca88006e020116d0e538bee3c632.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/userNode.self-650611c270ee923c43f9492777cea19ec6303651a8f82d10a82049d760b15357.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_rails.self-b0fea3efa3fdd47f32cd4280ccc18488ffd7f2136c7c563c63c217044182fe1e.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/websocket_rails/event.self-04d5bb47819660cff48dbf6cc594435e5d0d1107d44470b0890165896fa90030.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/websocket_rails/http_connection.self-8314b61f89b6ebcab2dbf126cbb99f4cf0feb5f417530abf373727b653eaf125.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_connection.self-a4fd5d8dc295df9ccfa03dae5df35d9a8fd1c54f21afc3c9cef931eff8a980e3.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/websocket_rails/channel.self-51e0b70af4cf956496d3b5ea4b739ec4cc25f979f3eff7abe53a8b4065643e6b.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/assets/websocket_rails/main.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 20:26:17 -0700
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=titus&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 20:26:23 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"titus", "commit"=>"Get Started!"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+Redirected to http://localhost:3000/user/titus
+Completed 302 Found in 11ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 20:26:23 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 71ms (Views: 69.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 268ms (Views: 266.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/user.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/userNode.self-bddaeb87f85fc7a7dbd19e5d85d6c263dc194924db273d5412108c5ead96df96.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_rails.self-b0fea3efa3fdd47f32cd4280ccc18488ffd7f2136c7c563c63c217044182fe1e.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/websocket_rails/event.self-04d5bb47819660cff48dbf6cc594435e5d0d1107d44470b0890165896fa90030.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/websocket_rails/abstract_connection.self-c59ade07c40033b31f560ae7c6681d3ecc9eca88006e020116d0e538bee3c632.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/websocket_rails/http_connection.self-8314b61f89b6ebcab2dbf126cbb99f4cf0feb5f417530abf373727b653eaf125.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_connection.self-a4fd5d8dc295df9ccfa03dae5df35d9a8fd1c54f21afc3c9cef931eff8a980e3.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/websocket_rails/channel.self-51e0b70af4cf956496d3b5ea4b739ec4cc25f979f3eff7abe53a8b4065643e6b.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/websocket_rails/main.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2016-03-09 20:27:28 -0700
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 240ms (Views: 239.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/user.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/userNode.self-928725feceacf8d4a845d563c1960937ac066e4ddd3c0a55c80e47011e8e1865.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_rails.self-b0fea3efa3fdd47f32cd4280ccc18488ffd7f2136c7c563c63c217044182fe1e.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/websocket_rails/event.self-04d5bb47819660cff48dbf6cc594435e5d0d1107d44470b0890165896fa90030.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/websocket_rails/abstract_connection.self-c59ade07c40033b31f560ae7c6681d3ecc9eca88006e020116d0e538bee3c632.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/websocket_rails/http_connection.self-8314b61f89b6ebcab2dbf126cbb99f4cf0feb5f417530abf373727b653eaf125.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_connection.self-a4fd5d8dc295df9ccfa03dae5df35d9a8fd1c54f21afc3c9cef931eff8a980e3.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/websocket_rails/channel.self-51e0b70af4cf956496d3b5ea4b739ec4cc25f979f3eff7abe53a8b4065643e6b.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/assets/websocket_rails/main.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:39 -0700
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 245ms (Views: 243.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/user.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/userNode.self-effa7058d95fe41ceb8b0a948d70c317e98dfa1d1dc97fc81cb7613010b5a1ce.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_rails.self-b0fea3efa3fdd47f32cd4280ccc18488ffd7f2136c7c563c63c217044182fe1e.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/websocket_rails/event.self-04d5bb47819660cff48dbf6cc594435e5d0d1107d44470b0890165896fa90030.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/websocket_rails/abstract_connection.self-c59ade07c40033b31f560ae7c6681d3ecc9eca88006e020116d0e538bee3c632.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/websocket_rails/http_connection.self-8314b61f89b6ebcab2dbf126cbb99f4cf0feb5f417530abf373727b653eaf125.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_connection.self-a4fd5d8dc295df9ccfa03dae5df35d9a8fd1c54f21afc3c9cef931eff8a980e3.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/websocket_rails/channel.self-51e0b70af4cf956496d3b5ea4b739ec4cc25f979f3eff7abe53a8b4065643e6b.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/assets/websocket_rails/main.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 20:31:58 -0700
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 20:32:13 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 242ms (Views: 240.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/user.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/userNode.self-5bd6e2bcee27394e34d2d0cbe78823b690b8776c4986494bc1eedc480b1a2c52.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_rails.self-b0fea3efa3fdd47f32cd4280ccc18488ffd7f2136c7c563c63c217044182fe1e.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/websocket_rails/event.self-04d5bb47819660cff48dbf6cc594435e5d0d1107d44470b0890165896fa90030.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/websocket_rails/abstract_connection.self-c59ade07c40033b31f560ae7c6681d3ecc9eca88006e020116d0e538bee3c632.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/websocket_rails/http_connection.self-8314b61f89b6ebcab2dbf126cbb99f4cf0feb5f417530abf373727b653eaf125.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_connection.self-a4fd5d8dc295df9ccfa03dae5df35d9a8fd1c54f21afc3c9cef931eff8a980e3.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/websocket_rails/channel.self-51e0b70af4cf956496d3b5ea4b739ec4cc25f979f3eff7abe53a8b4065643e6b.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/assets/websocket_rails/main.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 20:32:14 -0700
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/user.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/userNode.self-5bd6e2bcee27394e34d2d0cbe78823b690b8776c4986494bc1eedc480b1a2c52.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_rails.self-b0fea3efa3fdd47f32cd4280ccc18488ffd7f2136c7c563c63c217044182fe1e.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/websocket_rails/event.self-04d5bb47819660cff48dbf6cc594435e5d0d1107d44470b0890165896fa90030.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/websocket_rails/abstract_connection.self-c59ade07c40033b31f560ae7c6681d3ecc9eca88006e020116d0e538bee3c632.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/websocket_rails/http_connection.self-8314b61f89b6ebcab2dbf126cbb99f4cf0feb5f417530abf373727b653eaf125.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_connection.self-a4fd5d8dc295df9ccfa03dae5df35d9a8fd1c54f21afc3c9cef931eff8a980e3.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/websocket_rails/channel.self-51e0b70af4cf956496d3b5ea4b739ec4cc25f979f3eff7abe53a8b4065643e6b.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/websocket_rails/main.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 20:32:58 -0700
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 257ms (Views: 255.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/user.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/userNode.self-8f6ffb2945d69e68421e8946058ba983ec51b6b11b7664b57d6374e0f9d10876.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/websocket_rails/abstract_connection.self-c59ade07c40033b31f560ae7c6681d3ecc9eca88006e020116d0e538bee3c632.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_rails.self-b0fea3efa3fdd47f32cd4280ccc18488ffd7f2136c7c563c63c217044182fe1e.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/websocket_rails/event.self-04d5bb47819660cff48dbf6cc594435e5d0d1107d44470b0890165896fa90030.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/websocket_rails/http_connection.self-8314b61f89b6ebcab2dbf126cbb99f4cf0feb5f417530abf373727b653eaf125.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_connection.self-a4fd5d8dc295df9ccfa03dae5df35d9a8fd1c54f21afc3c9cef931eff8a980e3.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/websocket_rails/channel.self-51e0b70af4cf956496d3b5ea4b739ec4cc25f979f3eff7abe53a8b4065643e6b.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/websocket_rails/main.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 20:34:26 -0700
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/user.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/userNode.self-8f6ffb2945d69e68421e8946058ba983ec51b6b11b7664b57d6374e0f9d10876.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_rails.self-b0fea3efa3fdd47f32cd4280ccc18488ffd7f2136c7c563c63c217044182fe1e.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/websocket_rails/event.self-04d5bb47819660cff48dbf6cc594435e5d0d1107d44470b0890165896fa90030.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/websocket_rails/abstract_connection.self-c59ade07c40033b31f560ae7c6681d3ecc9eca88006e020116d0e538bee3c632.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/websocket_rails/http_connection.self-8314b61f89b6ebcab2dbf126cbb99f4cf0feb5f417530abf373727b653eaf125.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_connection.self-a4fd5d8dc295df9ccfa03dae5df35d9a8fd1c54f21afc3c9cef931eff8a980e3.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/websocket_rails/channel.self-51e0b70af4cf956496d3b5ea4b739ec4cc25f979f3eff7abe53a8b4065643e6b.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/websocket_rails/main.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 20:38:10 -0700
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 20:43:04 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 247ms (Views: 245.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/user.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/userNode.self-850855f70f34e8b815ff63c77a91bb9e752daba22d70781332c623e7c46ea85d.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_rails.self-b0fea3efa3fdd47f32cd4280ccc18488ffd7f2136c7c563c63c217044182fe1e.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/websocket_rails/event.self-04d5bb47819660cff48dbf6cc594435e5d0d1107d44470b0890165896fa90030.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/websocket_rails/abstract_connection.self-c59ade07c40033b31f560ae7c6681d3ecc9eca88006e020116d0e538bee3c632.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/websocket_rails/http_connection.self-8314b61f89b6ebcab2dbf126cbb99f4cf0feb5f417530abf373727b653eaf125.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_connection.self-a4fd5d8dc295df9ccfa03dae5df35d9a8fd1c54f21afc3c9cef931eff8a980e3.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/websocket_rails/channel.self-51e0b70af4cf956496d3b5ea4b739ec4cc25f979f3eff7abe53a8b4065643e6b.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/websocket_rails/main.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 20:43:05 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddActiveToUsers (20160310034708)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "users" ADD "active" bool[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160310034708"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 20:47:49 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered application/index.html.erb within layouts/application (288.6ms)
+Completed 200 OK in 313ms (Views: 311.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/userNode.self-b415ea6b91d7201cd6d25cfc61cc513cadcb7e475e685791366ff4399e7d4da8.js?body=1" for 127.0.0.1 at 2016-03-09 20:47:50 -0700
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=clark&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 20:47:53 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"clark", "commit"=>"Get Started!"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "clark"]]
+Redirected to http://localhost:3000/user/clark
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/user/clark" for 127.0.0.1 at 2016-03-09 20:47:53 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"clark"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "clark"]]
+  Rendered user/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 52ms (Views: 51.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 20:47:53 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 20:47:57 -0700
+Processing by ApplicationController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered application/index.html.erb within layouts/application (35.4ms)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=titus&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 20:48:00 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"titus", "commit"=>"Get Started!"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+Redirected to http://localhost:3000/user/titus
+Completed 302 Found in 1ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 20:48:00 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 41ms (Views: 40.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 20:48:00 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 20:49:55 -0700
+Processing by ApplicationController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered application/index.html.erb within layouts/application (52.6ms)
+Completed 200 OK in 70ms (Views: 68.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=titus&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 20:49:59 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"titus", "commit"=>"Get Started!"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+Completed 500 Internal Server Error in 14280ms (ActiveRecord: 0.2ms)
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/user_controller.rb:44:in `login'
+
+
+  Rendered /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.3ms)
+  Rendered /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (56.1ms)
+  Rendered /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (56.4ms)
+  Rendered /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (114.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 20:51:31 -0700
+Processing by ApplicationController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered application/index.html.erb within layouts/application (43.6ms)
+Completed 200 OK in 59ms (Views: 57.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=titus&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 20:51:33 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"titus", "commit"=>"Get Started!"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["active", "t"], ["updated_at", "2016-03-10 03:51:33.716843"], ["id", 2]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/user/titus
+Completed 302 Found in 6166ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 20:51:39 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 20:51:40 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 20:51:45 -0700
+Processing by ApplicationController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered application/index.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 48ms (Views: 47.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=titus&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 20:51:48 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"titus", "commit"=>"Get Started!"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["active", "t"], ["updated_at", "2016-03-10 03:51:48.080411"], ["id", 2]]
+  [1m[35m (1.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/user/titus
+Completed 302 Found in 4089ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 20:51:52 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 20:51:52 -0700
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."active" = 't'
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 20:52:41 -0700
+Processing by ApplicationController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered application/index.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=clark&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 20:52:47 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"clark", "commit"=>"Get Started!"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "clark"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["active", "t"], ["updated_at", "2016-03-10 03:52:47.844430"], ["id", 5]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/user/clark
+Completed 302 Found in 3666ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/user/clark" for 127.0.0.1 at 2016-03-09 20:52:51 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"clark"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "clark"]]
+  Rendered user/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 20:52:51 -0700
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."active" = 't'[0m
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 21:03:21 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 268ms (Views: 261.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/user.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/userNode.self-29a5ffa99540fef3a578970e348de02011c5a286721a376ffe37b8b1630a4216.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/websocket_rails/abstract_connection.self-c59ade07c40033b31f560ae7c6681d3ecc9eca88006e020116d0e538bee3c632.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_rails.self-b0fea3efa3fdd47f32cd4280ccc18488ffd7f2136c7c563c63c217044182fe1e.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/websocket_rails/event.self-04d5bb47819660cff48dbf6cc594435e5d0d1107d44470b0890165896fa90030.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/websocket_rails/http_connection.self-8314b61f89b6ebcab2dbf126cbb99f4cf0feb5f417530abf373727b653eaf125.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_connection.self-a4fd5d8dc295df9ccfa03dae5df35d9a8fd1c54f21afc3c9cef931eff8a980e3.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/websocket_rails/channel.self-51e0b70af4cf956496d3b5ea4b739ec4cc25f979f3eff7abe53a8b4065643e6b.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/websocket_rails/main.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2016-03-09 21:03:22 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:03:38 -0700
+Processing by ApplicationController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered application/index.html.erb within layouts/application (36.4ms)
+Completed 200 OK in 53ms (Views: 52.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=titus&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:03:41 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"titus", "commit"=>"Get Started!"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["active", "t"], ["updated_at", "2016-03-10 04:03:41.150399"], ["id", 2]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/user/titus
+Completed 302 Found in 5ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 21:03:41 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 21:04:01 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 527ms (Views: 506.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:04:05 -0700
+Processing by ApplicationController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered application/index.html.erb within layouts/application (63.8ms)
+Completed 200 OK in 91ms (Views: 90.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=titus&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:04:19 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"titus", "commit"=>"Get Started!"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["active", "t"], ["updated_at", "2016-03-10 04:04:19.579258"], ["id", 2]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/user/titus
+Completed 302 Found in 12ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 21:04:19 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 51ms (Views: 49.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 21:05:39 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 758ms (Views: 737.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/user.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/userNode.self-613d858f6daa7db1a03c759306e9bb29c2319b4968594831287b18a1db58842b.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_rails.self-b0fea3efa3fdd47f32cd4280ccc18488ffd7f2136c7c563c63c217044182fe1e.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/websocket_rails/event.self-04d5bb47819660cff48dbf6cc594435e5d0d1107d44470b0890165896fa90030.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/websocket_rails/abstract_connection.self-c59ade07c40033b31f560ae7c6681d3ecc9eca88006e020116d0e538bee3c632.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/websocket_rails/http_connection.self-8314b61f89b6ebcab2dbf126cbb99f4cf0feb5f417530abf373727b653eaf125.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_connection.self-a4fd5d8dc295df9ccfa03dae5df35d9a8fd1c54f21afc3c9cef931eff8a980e3.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/websocket_rails/channel.self-51e0b70af4cf956496d3b5ea4b739ec4cc25f979f3eff7abe53a8b4065643e6b.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/assets/websocket_rails/main.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 21:05:40 -0700
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."active" = 't'[0m
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:08:56 -0700
+Processing by ApplicationController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered application/index.html.erb within layouts/application (42.1ms)
+Completed 200 OK in 58ms (Views: 56.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=titus&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:09:01 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"titus", "commit"=>"Get Started!"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["active", "t"], ["updated_at", "2016-03-10 04:09:01.913515"], ["id", 2]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/user/titus
+Completed 302 Found in 7ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 21:09:01 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 47ms (Views: 45.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 21:09:02 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:10:11 -0700
+Processing by ApplicationController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered application/index.html.erb within layouts/application (33.2ms)
+Completed 200 OK in 51ms (Views: 50.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=clark&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:10:19 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"clark", "commit"=>"Get Started!"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "clark"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["active", "t"], ["updated_at", "2016-03-10 04:10:19.088674"], ["id", 5]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/user/clark
+Completed 302 Found in 4ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/user/clark" for 127.0.0.1 at 2016-03-09 21:10:19 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"clark"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "clark"]]
+  Rendered user/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 44ms (Views: 42.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 21:10:19 -0700
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."active" = 't'[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."active" = 't'
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:12:45 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered application/index.html.erb within layouts/application (283.5ms)
+Completed 200 OK in 331ms (Views: 322.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=titus&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:12:49 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"titus", "commit"=>"Get Started!"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["active", "t"], ["updated_at", "2016-03-10 04:12:49.223363"], ["id", 2]]
+  [1m[35m (2.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/user/titus
+Completed 302 Found in 18ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 21:12:49 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 65ms (Views: 62.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 21:12:49 -0700
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."active" = 't'[0m
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:14:19 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered application/index.html.erb within layouts/application (279.7ms)
+Completed 200 OK in 333ms (Views: 323.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/user.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/react_ujs_mount.self-69e74f4eea1a8726d3c4365387f2e671fc1f3a85977e4a0fb29649a19e78a49e.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks.self-194cee0be75f9bf71a5e74a3261fd0923879561f3797642f7c00c8c89378fdb9.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic.self-763df8fa4c0b0551840f5244b265843641523ad3bf7bb308d20801ac5cde2acb.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/react_ujs_event_setup.self-7f4f5dc5b4aa79c2fdd84fc6283f7615df9d55ecb52a0707f37d649094555735.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/react_ujs_turbolinks_classic_deprecated.self-f93fc4217cec084020eaf90b0425c454ba18d4ee1a054f254f5dba461eaab1a4.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/react_ujs_native.self-69da92af440ae3f522e7294876ed2bae234447ee564d1619c9f69d53e1020a8a.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/react_ujs.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/components.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/websocket_rails/abstract_connection.self-c59ade07c40033b31f560ae7c6681d3ecc9eca88006e020116d0e538bee3c632.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/userNode.self-613d858f6daa7db1a03c759306e9bb29c2319b4968594831287b18a1db58842b.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_rails.self-b0fea3efa3fdd47f32cd4280ccc18488ffd7f2136c7c563c63c217044182fe1e.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/websocket_rails/event.self-04d5bb47819660cff48dbf6cc594435e5d0d1107d44470b0890165896fa90030.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/websocket_rails/http_connection.self-8314b61f89b6ebcab2dbf126cbb99f4cf0feb5f417530abf373727b653eaf125.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/websocket_rails/websocket_connection.self-a4fd5d8dc295df9ccfa03dae5df35d9a8fd1c54f21afc3c9cef931eff8a980e3.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/websocket_rails/channel.self-51e0b70af4cf956496d3b5ea4b739ec4cc25f979f3eff7abe53a8b4065643e6b.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/websocket_rails/main.self-d088784b7ecb87f1ea17e6f982fa968ffefcc07b79de6ecc548fc00242868da6.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/assets/react.self-fede65fd9a4acabec5ef1256b80983a6e6e8a68dec5eca279f6923ca213f7228.js?body=1" for 127.0.0.1 at 2016-03-09 21:14:20 -0700
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=titus&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:14:23 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"titus", "commit"=>"Get Started!"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["active", "t"], ["updated_at", "2016-03-10 04:14:23.500288"], ["id", 2]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/user/titus
+Completed 302 Found in 12ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 21:14:23 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 74ms (Views: 72.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 21:14:23 -0700
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."active" = 't'
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = ?[0m  [["username", "clark"]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["active", "f"], ["updated_at", "2016-03-10 04:16:45.309717"], ["id", 5]]
+  [1m[35m (1.0ms)[0m  commit transaction
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:16:56 -0700
+Processing by ApplicationController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered application/index.html.erb within layouts/application (44.7ms)
+Completed 200 OK in 64ms (Views: 63.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=boogie&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:17:00 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"boogie", "commit"=>"Get Started!"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "boogie"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["active", "t"], ["updated_at", "2016-03-10 04:17:00.380836"], ["id", 6]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/user/boogie
+Completed 302 Found in 4ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/user/boogie" for 127.0.0.1 at 2016-03-09 21:17:00 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"boogie"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "boogie"]]
+  Rendered user/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 21:17:00 -0700
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."active" = 't'[0m
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:19:23 -0700
+Processing by ApplicationController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered application/index.html.erb within layouts/application (41.6ms)
+Completed 200 OK in 71ms (Views: 70.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=titus&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:19:26 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"titus", "commit"=>"Get Started!"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["active", "t"], ["updated_at", "2016-03-10 04:19:26.286447"], ["id", 2]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/user/titus
+Completed 302 Found in 5ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 21:19:26 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 54ms (Views: 52.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 21:19:26 -0700
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."uuid" = ?  [["uuid", "not there"]]
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:22:09 -0700
+Processing by ApplicationController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered application/index.html.erb within layouts/application (38.5ms)
+Completed 200 OK in 60ms (Views: 57.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=titus&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:22:12 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"titus", "commit"=>"Get Started!"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["active", "t"], ["updated_at", "2016-03-10 04:22:12.416779"], ["id", 2]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/user/titus
+Completed 302 Found in 4ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 21:22:12 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 21:22:12 -0700
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."uuid" = ?[0m  [["uuid", "not there"]]
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:23:14 -0700
+Processing by ApplicationController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered application/index.html.erb within layouts/application (43.5ms)
+Completed 200 OK in 61ms (Views: 58.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=titus&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:23:17 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"titus", "commit"=>"Get Started!"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["active", "t"], ["updated_at", "2016-03-10 04:23:17.612283"], ["id", 2]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/user/titus
+Completed 302 Found in 5ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 21:23:17 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 21:23:17 -0700
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."uuid" = ?  [["uuid", "not there"]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE "users"."uuid" = ?[0m  [["uuid", "not there"]]
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:23:48 -0700
+Processing by ApplicationController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered application/index.html.erb within layouts/application (41.1ms)
+Completed 200 OK in 61ms (Views: 59.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=titus&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:23:51 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"titus", "commit"=>"Get Started!"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["active", "t"], ["updated_at", "2016-03-10 04:23:51.365894"], ["id", 2]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/user/titus
+Completed 302 Found in 6ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 21:23:51 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 67ms (Views: 65.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 21:23:51 -0700
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "users" WHERE "users"."uuid" = ?  [["uuid", "not there"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE "users"."uuid" = ?[0m  [["uuid", "not there"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."uuid" = ?  [["uuid", "not there"]]
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:24:22 -0700
+Processing by ApplicationController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered application/index.html.erb within layouts/application (38.5ms)
+Completed 200 OK in 53ms (Views: 51.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=boogie&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:24:26 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"boogie", "commit"=>"Get Started!"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "boogie"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["active", "t"], ["updated_at", "2016-03-10 04:24:26.938671"], ["id", 6]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/user/boogie
+Completed 302 Found in 4ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/user/boogie" for 127.0.0.1 at 2016-03-09 21:24:26 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"boogie"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "boogie"]]
+  Rendered user/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 21:24:27 -0700
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."uuid" = ?[0m  [["uuid", "not there"]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "users" WHERE "users"."uuid" = ?  [["uuid", "not there"]]
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:25:16 -0700
+Processing by ApplicationController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered application/index.html.erb within layouts/application (47.0ms)
+Completed 200 OK in 63ms (Views: 60.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=titus&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:25:18 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"titus", "commit"=>"Get Started!"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["active", "t"], ["updated_at", "2016-03-10 04:25:18.568423"], ["id", 2]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/user/titus
+Completed 302 Found in 5ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 21:25:18 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 21:25:18 -0700
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE "users"."uuid" = ?[0m  [["uuid", "not there"]]
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:26:05 -0700
+Processing by ApplicationController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered application/index.html.erb within layouts/application (41.6ms)
+Completed 200 OK in 57ms (Views: 54.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=titus&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:26:10 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"titus", "commit"=>"Get Started!"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["active", "t"], ["updated_at", "2016-03-10 04:26:10.175126"], ["id", 2]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/user/titus
+Completed 302 Found in 6ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 21:26:10 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 21:26:10 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:27:30 -0700
+Processing by ApplicationController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered application/index.html.erb within layouts/application (47.6ms)
+Completed 200 OK in 63ms (Views: 61.9ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE "users"."uuid" = ?[0m  [["uuid", "not there"]]
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=matty_ice&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:27:36 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"matty_ice", "commit"=>"Get Started!"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "matty_ice"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["active", "t"], ["updated_at", "2016-03-10 04:27:36.079716"], ["id", 1]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/user/matty_ice
+Completed 302 Found in 3ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/user/matty_ice" for 127.0.0.1 at 2016-03-09 21:27:36 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"matty_ice"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "matty_ice"]]
+  Rendered user/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 21:27:36 -0700
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE "users"."uuid" = ?[0m  [["uuid", "not there"]]
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:28:12 -0700
+Processing by ApplicationController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered application/index.html.erb within layouts/application (36.3ms)
+Completed 200 OK in 54ms (Views: 52.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=matty_ice&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:28:17 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"matty_ice", "commit"=>"Get Started!"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "matty_ice"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["active", "t"], ["updated_at", "2016-03-10 04:28:17.556417"], ["id", 1]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/user/matty_ice
+Completed 302 Found in 12ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/user/matty_ice" for 127.0.0.1 at 2016-03-09 21:28:17 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"matty_ice"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "matty_ice"]]
+  Rendered user/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 49ms (Views: 47.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 21:28:17 -0700
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."active" = 't'
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE "users"."uuid" = ?[0m  [["uuid", "c22b071d-d853-44ab-9ca2-8ef2c0efab62"]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."uuid" = ?  [["uuid", "c22b071d-d853-44ab-9ca2-8ef2c0efab62"]]
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:29:20 -0700
+Processing by ApplicationController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered application/index.html.erb within layouts/application (57.9ms)
+Completed 200 OK in 79ms (Views: 76.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=titus&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:29:23 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"titus", "commit"=>"Get Started!"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["active", "t"], ["updated_at", "2016-03-10 04:29:23.125136"], ["id", 2]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/user/titus
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 21:29:23 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 21:29:23 -0700
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."active" = 't'[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."uuid" = ?  [["uuid", "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"]]
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE "users"."uuid" = ?[0m  [["uuid", "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."uuid" = ?  [["uuid", "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"]]
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:30:46 -0700
+Processing by ApplicationController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered application/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 41ms (Views: 39.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=titus&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:30:49 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"titus", "commit"=>"Get Started!"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["active", "t"], ["updated_at", "2016-03-10 04:30:49.362005"], ["id", 2]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/user/titus
+Completed 302 Found in 5ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 21:30:49 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 21:30:49 -0700
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."active" = 't'[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "users" WHERE "users"."uuid" = ?  [["uuid", "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uuid" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["uuid", "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"]]
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["active", "f"], ["updated_at", "2016-03-10 04:30:59.152658"], ["id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."active" = 't'
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."active" = 't'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["active", "f"], ["updated_at", "2016-03-10 04:31:39.793414"], ["id", 1]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."active" = 't'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["active", "f"], ["updated_at", "2016-03-10 04:31:58.552549"], ["id", 6]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."active" = 't'[0m
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:32:26 -0700
+Processing by ApplicationController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered application/index.html.erb within layouts/application (33.4ms)
+Completed 200 OK in 50ms (Views: 48.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=titus&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:32:28 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"titus", "commit"=>"Get Started!"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  UPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["active", "t"], ["updated_at", "2016-03-10 04:32:28.828290"], ["id", 2]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/user/titus
+Completed 302 Found in 5ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/user/titus" for 127.0.0.1 at 2016-03-09 21:32:28 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"titus"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["username", "titus"]]
+  Rendered user/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 21:32:28 -0700
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."active" = 't'[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."active" = 't'
+
+
+Started GET "/" for 127.0.0.1 at 2016-03-09 21:32:37 -0700
+Processing by ApplicationController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered application/index.html.erb within layouts/application (30.8ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/user/login?utf8=%E2%9C%93&username=clark&commit=Get+Started%21" for 127.0.0.1 at 2016-03-09 21:32:40 -0700
+Processing by UserController#login as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"clark", "commit"=>"Get Started!"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "clark"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["active", "t"], ["updated_at", "2016-03-10 04:32:40.186310"], ["id", 5]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/user/clark
+Completed 302 Found in 4ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/user/clark" for 127.0.0.1 at 2016-03-09 21:32:40 -0700
+Processing by UserController#show as HTML
+  Parameters: {"id"=>"clark"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["username", "clark"]]
+  Rendered user/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/websocket" for 127.0.0.1 at 2016-03-09 21:32:40 -0700
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."active" = 't'
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."active" = 't'[0m
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE "users"."uuid" = ?[0m  [["uuid", "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uuid" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["uuid", "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["active", "f"], ["updated_at", "2016-03-10 04:32:46.008137"], ["id", 2]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."active" = 't'
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users" WHERE "users"."uuid" = ?  [["uuid", "fadf2773-374b-4672-900c-13322ef96061"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uuid" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["uuid", "fadf2773-374b-4672-900c-13322ef96061"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "active" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["active", "f"], ["updated_at", "2016-03-10 04:32:57.667989"], ["id", 5]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."active" = 't'[0m

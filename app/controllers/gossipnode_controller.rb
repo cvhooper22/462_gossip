@@ -7,6 +7,8 @@ class GossipnodeController < WebsocketRails::BaseController
     puts 'register event!'
     user_guid = message
     WebsocketRails.users[user_guid] = connection
+    allUsers = User.where({active: true})
+    WebsocketRails['peers'].trigger('updated_peers', allUsers)
   end
 
   def delete_user
@@ -21,6 +23,11 @@ class GossipnodeController < WebsocketRails::BaseController
       end
     end
     WebsocketRails.users.users.delete(@my_guid)
+    @user = User.where({uuid: @my_guid})
+    if @user.count > 0
+      @user = @user.first
+      @user.update({active: false})
+    end
     puts "removed connections from #{@my_guid}"
   end
 end

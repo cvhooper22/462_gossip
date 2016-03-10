@@ -330,3 +330,879 @@ I [2016-03-04 22:57:05.880] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-
 I [2016-03-04 22:57:05.880] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5425a314e5dcc44725c4>
 I [2016-03-04 22:57:05.880] [[32mDispatcher[0m] Event register Finished in 0.000341 seconds
 I [2016-03-04 23:01:34.728] [[32mConnectionManager[0m] Connection closed: #<Connection::5425a314e5dcc44725c4>
+I [2016-03-09 20:32:14.334] [[32mConnectionManager[0m] Connection opened: #<Connection::0433e474dff0338602bd>
+I [2016-03-09 20:32:14.336] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 20:32:14.336] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 20:32:14.337] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"0433e474dff0338602bd"}
+I [2016-03-09 20:32:14.337] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0433e474dff0338602bd>
+I [2016-03-09 20:32:14.337] [[32mDispatcher[0m] Event client_connected Finished in 0.000595 seconds
+I [2016-03-09 20:32:14.352] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 20:32:14.352] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 20:32:14.352] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 20:32:14.352] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0433e474dff0338602bd>
+I [2016-03-09 20:32:14.353] [[32mDispatcher[0m] Event register Finished in 0.000345 seconds
+I [2016-03-09 20:32:58.646] [[32mConnectionManager[0m] Connection closed: #<Connection::0433e474dff0338602bd>
+I [2016-03-09 20:32:58.647] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 20:32:58.647] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 20:32:58.647] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0433e474dff0338602bd>
+I [2016-03-09 20:32:58.647] [[32mDispatcher[0m] Event client_disconnected Finished in 0.000363 seconds
+I [2016-03-09 20:32:58.887] [[32mConnectionManager[0m] Connection opened: #<Connection::11b163a32b942a3da951>
+I [2016-03-09 20:32:58.887] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 20:32:58.887] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 20:32:58.887] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"11b163a32b942a3da951"}
+I [2016-03-09 20:32:58.887] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::11b163a32b942a3da951>
+I [2016-03-09 20:32:58.888] [[32mDispatcher[0m] Event client_connected Finished in 0.000377 seconds
+I [2016-03-09 20:32:58.902] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 20:32:58.902] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 20:32:58.902] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 20:32:58.902] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::11b163a32b942a3da951>
+I [2016-03-09 20:32:58.902] [[32mDispatcher[0m] Event register Finished in 0.00034 seconds
+I [2016-03-09 20:33:18.889] [[32mConnectionManager[0m] Connection closed: #<Connection::11b163a32b942a3da951>
+I [2016-03-09 20:33:18.889] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 20:33:18.889] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 20:33:18.889] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::11b163a32b942a3da951>
+I [2016-03-09 20:33:18.890] [[32mDispatcher[0m] Event client_disconnected Finished in 0.000444 seconds
+I [2016-03-09 20:34:26.577] [[32mConnectionManager[0m] Connection closed: #<Connection::11b163a32b942a3da951>
+I [2016-03-09 20:34:26.578] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 20:34:26.578] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 20:34:26.578] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::11b163a32b942a3da951>
+I [2016-03-09 20:34:26.578] [[32mDispatcher[0m] Event client_disconnected Finished in 0.000442 seconds
+I [2016-03-09 20:34:26.793] [[32mConnectionManager[0m] Connection opened: #<Connection::a026e0ed93e6ea810846>
+I [2016-03-09 20:34:26.793] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 20:34:26.793] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 20:34:26.793] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"a026e0ed93e6ea810846"}
+I [2016-03-09 20:34:26.794] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::a026e0ed93e6ea810846>
+I [2016-03-09 20:34:26.794] [[32mDispatcher[0m] Event client_connected Finished in 0.000354 seconds
+I [2016-03-09 20:34:26.814] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 20:34:26.815] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 20:34:26.815] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 20:34:26.815] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::a026e0ed93e6ea810846>
+I [2016-03-09 20:34:26.815] [[32mDispatcher[0m] Event register Finished in 0.000346 seconds
+I [2016-03-09 20:38:10.558] [[32mConnectionManager[0m] Connection closed: #<Connection::a026e0ed93e6ea810846>
+I [2016-03-09 20:38:10.558] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 20:38:10.558] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 20:38:10.558] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::a026e0ed93e6ea810846>
+I [2016-03-09 20:38:10.559] [[32mDispatcher[0m] Event client_disconnected Finished in 0.000419 seconds
+I [2016-03-09 20:38:10.776] [[32mConnectionManager[0m] Connection opened: #<Connection::3cc993f4c8762bf916c9>
+I [2016-03-09 20:38:10.777] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 20:38:10.777] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 20:38:10.777] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"3cc993f4c8762bf916c9"}
+I [2016-03-09 20:38:10.777] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::3cc993f4c8762bf916c9>
+I [2016-03-09 20:38:10.777] [[32mDispatcher[0m] Event client_connected Finished in 0.000508 seconds
+I [2016-03-09 20:38:10.793] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 20:38:10.793] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 20:38:10.793] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 20:38:10.793] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::3cc993f4c8762bf916c9>
+I [2016-03-09 20:38:10.793] [[32mDispatcher[0m] Event register Finished in 0.000415 seconds
+I [2016-03-09 20:43:04.978] [[32mConnectionManager[0m] Connection closed: #<Connection::3cc993f4c8762bf916c9>
+I [2016-03-09 20:43:04.979] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 20:43:04.979] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 20:43:04.979] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::3cc993f4c8762bf916c9>
+I [2016-03-09 20:43:04.979] [[32mDispatcher[0m] Event client_disconnected Finished in 0.000408 seconds
+I [2016-03-09 20:43:05.191] [[32mConnectionManager[0m] Connection opened: #<Connection::ca99e4a7e184dcb66d69>
+I [2016-03-09 20:43:05.192] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 20:43:05.192] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 20:43:05.192] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"ca99e4a7e184dcb66d69"}
+I [2016-03-09 20:43:05.192] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::ca99e4a7e184dcb66d69>
+I [2016-03-09 20:43:05.192] [[32mDispatcher[0m] Event client_connected Finished in 0.000374 seconds
+I [2016-03-09 20:43:05.208] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 20:43:05.208] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 20:43:05.208] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 20:43:05.208] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::ca99e4a7e184dcb66d69>
+I [2016-03-09 20:43:05.208] [[32mDispatcher[0m] Event register Finished in 0.00036 seconds
+I [2016-03-09 20:43:39.437] [[32mConnectionManager[0m] Connection closed: #<Connection::ca99e4a7e184dcb66d69>
+I [2016-03-09 20:43:39.437] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 20:43:39.437] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 20:43:39.437] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::ca99e4a7e184dcb66d69>
+I [2016-03-09 20:43:39.438] [[32mDispatcher[0m] Event client_disconnected Finished in 0.000571 seconds
+I [2016-03-09 20:47:53.242] [[32mConnectionManager[0m] Connection opened: #<Connection::6b51473755a27e4fbf32>
+I [2016-03-09 20:47:53.242] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 20:47:53.242] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 20:47:53.242] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"6b51473755a27e4fbf32"}
+I [2016-03-09 20:47:53.242] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6b51473755a27e4fbf32>
+I [2016-03-09 20:47:53.243] [[32mDispatcher[0m] Event client_connected Finished in 0.000533 seconds
+I [2016-03-09 20:47:53.258] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 20:47:53.258] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 20:47:53.258] [[32mDispatcher[0m] [36mData:[0m "fadf2773-374b-4672-900c-13322ef96061"
+I [2016-03-09 20:47:53.258] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6b51473755a27e4fbf32>
+I [2016-03-09 20:47:53.259] [[32mDispatcher[0m] Event register Finished in 0.000394 seconds
+I [2016-03-09 20:48:00.688] [[32mConnectionManager[0m] Connection opened: #<Connection::1391093c05f1b2ad446e>
+I [2016-03-09 20:48:00.689] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 20:48:00.689] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 20:48:00.689] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"1391093c05f1b2ad446e"}
+I [2016-03-09 20:48:00.689] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1391093c05f1b2ad446e>
+I [2016-03-09 20:48:00.689] [[32mDispatcher[0m] Event client_connected Finished in 0.000324 seconds
+I [2016-03-09 20:48:00.696] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 20:48:00.696] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 20:48:00.696] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 20:48:00.696] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1391093c05f1b2ad446e>
+I [2016-03-09 20:48:00.697] [[32mDispatcher[0m] Event register Finished in 0.000523 seconds
+I [2016-03-09 20:48:22.311] [[32mConnectionManager[0m] Connection closed: #<Connection::6b51473755a27e4fbf32>
+I [2016-03-09 20:48:22.311] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 20:48:22.311] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 20:48:22.311] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6b51473755a27e4fbf32>
+I [2016-03-09 20:48:22.312] [[32mDispatcher[0m] Event client_disconnected Finished in 0.000536 seconds
+I [2016-03-09 20:48:22.767] [[32mConnectionManager[0m] Connection closed: #<Connection::1391093c05f1b2ad446e>
+I [2016-03-09 20:48:22.767] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 20:48:22.767] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 20:48:22.767] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::1391093c05f1b2ad446e>
+I [2016-03-09 20:48:22.768] [[32mDispatcher[0m] Event client_disconnected Finished in 0.000501 seconds
+I [2016-03-09 20:51:40.366] [[32mConnectionManager[0m] Connection opened: #<Connection::5410b0fa2dd404d0976c>
+I [2016-03-09 20:51:40.375] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 20:51:40.375] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 20:51:40.375] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"5410b0fa2dd404d0976c"}
+I [2016-03-09 20:51:40.376] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5410b0fa2dd404d0976c>
+I [2016-03-09 20:51:40.380] [[32mDispatcher[0m] Event client_connected Finished in 0.000377 seconds
+I [2016-03-09 20:51:40.550] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 20:51:40.551] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 20:51:40.551] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 20:51:40.551] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5410b0fa2dd404d0976c>
+I [2016-03-09 20:51:40.558] [[32mDispatcher[0m] Event register Finished in 0.000613 seconds
+I [2016-03-09 20:51:52.315] [[32mConnectionManager[0m] Connection opened: #<Connection::012eff4a42dd16e67c5b>
+I [2016-03-09 20:51:52.316] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 20:51:52.316] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 20:51:52.316] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"012eff4a42dd16e67c5b"}
+I [2016-03-09 20:51:52.316] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::012eff4a42dd16e67c5b>
+I [2016-03-09 20:51:52.317] [[32mDispatcher[0m] Event client_connected Finished in 0.000316 seconds
+I [2016-03-09 20:51:52.324] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 20:51:52.324] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 20:51:52.324] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 20:51:52.324] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::012eff4a42dd16e67c5b>
+I [2016-03-09 20:51:52.325] [[32mDispatcher[0m] Event register Finished in 0.000493 seconds
+I [2016-03-09 20:52:41.882] [[32mConnectionManager[0m] Connection closed: #<Connection::012eff4a42dd16e67c5b>
+I [2016-03-09 20:52:41.882] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 20:52:41.882] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 20:52:41.882] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::012eff4a42dd16e67c5b>
+I [2016-03-09 20:52:41.882] [[32mDispatcher[0m] Event client_disconnected Finished in 0.000375 seconds
+I [2016-03-09 20:52:51.648] [[32mConnectionManager[0m] Connection opened: #<Connection::3acad10864244402b274>
+I [2016-03-09 20:52:51.649] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 20:52:51.649] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 20:52:51.649] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"3acad10864244402b274"}
+I [2016-03-09 20:52:51.649] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::3acad10864244402b274>
+I [2016-03-09 20:52:51.649] [[32mDispatcher[0m] Event client_connected Finished in 0.000322 seconds
+I [2016-03-09 20:52:51.657] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 20:52:51.657] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 20:52:51.657] [[32mDispatcher[0m] [36mData:[0m "fadf2773-374b-4672-900c-13322ef96061"
+I [2016-03-09 20:52:51.657] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::3acad10864244402b274>
+I [2016-03-09 20:52:51.657] [[32mDispatcher[0m] Event register Finished in 0.000481 seconds
+I [2016-03-09 21:03:21.944] [[32mConnectionManager[0m] Connection closed: #<Connection::5410b0fa2dd404d0976c>
+I [2016-03-09 21:03:21.945] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:03:21.945] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:03:21.945] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::5410b0fa2dd404d0976c>
+I [2016-03-09 21:03:21.945] [[32mDispatcher[0m] Event client_disconnected Finished in 0.00047 seconds
+I [2016-03-09 21:03:51.523] [[32mConnectionManager[0m] Connection closed: #<Connection::3acad10864244402b274>
+I [2016-03-09 21:05:40.496] [[32mConnectionManager[0m] Connection opened: #<Connection::863366a4993c0d84d97d>
+I [2016-03-09 21:05:40.501] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 21:05:40.501] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 21:05:40.501] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"863366a4993c0d84d97d"}
+I [2016-03-09 21:05:40.501] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::863366a4993c0d84d97d>
+I [2016-03-09 21:05:40.509] [[32mDispatcher[0m] Event client_connected Finished in 0.007736 seconds
+I [2016-03-09 21:05:40.522] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 21:05:40.522] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 21:05:40.522] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 21:05:40.522] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::863366a4993c0d84d97d>
+I [2016-03-09 21:06:02.135] [[32mDispatcher[0m] Event register Finished in 21.61292 seconds
+I [2016-03-09 21:06:02.135] [[32mChannel[0m] #<Connection::863366a4993c0d84d97d> subscribed to channel peers
+I [2016-03-09 21:06:02.135] [[32mChannel[0m] sending token
+I [2016-03-09 21:08:56.754] [[32mChannel[0m] #<Connection::863366a4993c0d84d97d> unsubscribed from channel peers
+I [2016-03-09 21:08:56.754] [[32mConnectionManager[0m] Connection closed: #<Connection::863366a4993c0d84d97d>
+I [2016-03-09 21:08:56.754] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:08:56.755] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:08:56.755] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::863366a4993c0d84d97d>
+E [2016-03-09 21:08:56.755] [[31mDispatcher[0m] ArgumentError: wrong number of arguments (1 for 2)
+E [2016-03-09 21:08:56.755] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.1/lib/active_record/relation.rb:364:in `update'
+E [2016-03-09 21:08:56.755] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:26:in `delete_user'
+E [2016-03-09 21:08:56.756] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:08:56.756] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:08:56.756] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:08:56.756] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:08:56.756] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:08:56.756] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:08:56.756] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:08:56.756] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:08:56.756] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:08:56.756] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:08:56.756] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:09:02.151] [[32mConnectionManager[0m] Connection opened: #<Connection::c174ba0756a0193225a2>
+I [2016-03-09 21:09:02.152] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 21:09:02.152] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 21:09:02.152] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"c174ba0756a0193225a2"}
+I [2016-03-09 21:09:02.152] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c174ba0756a0193225a2>
+I [2016-03-09 21:09:02.153] [[32mDispatcher[0m] Event client_connected Finished in 0.000568 seconds
+I [2016-03-09 21:09:02.168] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 21:09:02.168] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 21:09:02.168] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 21:09:02.168] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c174ba0756a0193225a2>
+E [2016-03-09 21:09:02.169] [[31mDispatcher[0m] NameError: undefined local variable or method `user_guid' for #<GossipnodeController:0x007fc3809e5570>
+E [2016-03-09 21:09:02.169] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:167:in `method_missing'
+E [2016-03-09 21:09:02.169] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:8:in `register'
+E [2016-03-09 21:09:02.169] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:09:02.169] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:09:02.169] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:09:02.169] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:09:02.169] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:09:02.169] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:09:02.169] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:09:02.169] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:09:02.169] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:09:02.169] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:09:02.169] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:09:02.170] [[32mChannel[0m] #<Connection::c174ba0756a0193225a2> subscribed to channel peers
+I [2016-03-09 21:09:02.170] [[32mChannel[0m] sending token
+I [2016-03-09 21:10:19.245] [[32mConnectionManager[0m] Connection opened: #<Connection::cd1ecafc98e3c2e90d97>
+I [2016-03-09 21:10:19.246] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 21:10:19.246] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 21:10:19.246] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"cd1ecafc98e3c2e90d97"}
+I [2016-03-09 21:10:19.246] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cd1ecafc98e3c2e90d97>
+I [2016-03-09 21:10:19.246] [[32mDispatcher[0m] Event client_connected Finished in 0.000428 seconds
+I [2016-03-09 21:10:19.256] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 21:10:19.256] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 21:10:19.256] [[32mDispatcher[0m] [36mData:[0m "fadf2773-374b-4672-900c-13322ef96061"
+I [2016-03-09 21:10:19.256] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cd1ecafc98e3c2e90d97>
+E [2016-03-09 21:10:19.257] [[31mDispatcher[0m] NameError: undefined local variable or method `user_guid' for #<GossipnodeController:0x007fc37a0ce208>
+E [2016-03-09 21:10:19.257] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:167:in `method_missing'
+E [2016-03-09 21:10:19.257] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:8:in `register'
+E [2016-03-09 21:10:19.257] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:10:19.257] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:10:19.257] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:10:19.257] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:10:19.257] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:10:19.257] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:10:19.257] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:10:19.257] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:10:19.257] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:10:19.257] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:10:19.257] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:10:19.258] [[32mChannel[0m] #<Connection::cd1ecafc98e3c2e90d97> subscribed to channel peers
+I [2016-03-09 21:10:19.258] [[32mChannel[0m] sending token
+I [2016-03-09 21:11:40.432] [[32mChannel[0m] #<Connection::c174ba0756a0193225a2> unsubscribed from channel peers
+I [2016-03-09 21:11:40.432] [[32mConnectionManager[0m] Connection closed: #<Connection::c174ba0756a0193225a2>
+I [2016-03-09 21:11:40.433] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:11:40.433] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:11:40.433] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::c174ba0756a0193225a2>
+E [2016-03-09 21:11:40.434] [[31mDispatcher[0m] ArgumentError: wrong number of arguments (1 for 2)
+E [2016-03-09 21:11:40.434] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.1/lib/active_record/relation.rb:364:in `update'
+E [2016-03-09 21:11:40.434] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:26:in `delete_user'
+E [2016-03-09 21:11:40.434] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:11:40.434] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:11:40.434] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:11:40.434] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:11:40.434] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:11:40.434] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:11:40.434] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:11:40.434] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:11:40.434] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:11:40.434] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:11:40.434] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:12:18.105] [[32mChannel[0m] #<Connection::cd1ecafc98e3c2e90d97> unsubscribed from channel peers
+I [2016-03-09 21:12:18.105] [[32mConnectionManager[0m] Connection closed: #<Connection::cd1ecafc98e3c2e90d97>
+I [2016-03-09 21:12:18.106] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:12:18.106] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:12:18.106] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::cd1ecafc98e3c2e90d97>
+E [2016-03-09 21:12:31.201] [[31mDispatcher[0m] ArgumentError: wrong number of arguments (1 for 2)
+E [2016-03-09 21:12:31.201] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.1/lib/active_record/relation.rb:364:in `update'
+E [2016-03-09 21:12:31.201] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:27:in `delete_user'
+E [2016-03-09 21:12:31.201] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:12:31.201] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:12:31.201] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:12:31.201] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:12:31.201] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:12:31.201] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:12:31.201] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:12:31.201] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:12:31.202] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:12:31.202] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:12:31.202] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:12:49.418] [[32mConnectionManager[0m] Connection opened: #<Connection::9aaceee187c8679ee986>
+I [2016-03-09 21:12:49.420] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 21:12:49.420] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 21:12:49.420] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"9aaceee187c8679ee986"}
+I [2016-03-09 21:12:49.420] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::9aaceee187c8679ee986>
+I [2016-03-09 21:12:49.420] [[32mDispatcher[0m] Event client_connected Finished in 0.000473 seconds
+I [2016-03-09 21:12:49.428] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 21:12:49.428] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 21:12:49.428] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 21:12:49.428] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::9aaceee187c8679ee986>
+E [2016-03-09 21:12:49.429] [[31mDispatcher[0m] NameError: undefined local variable or method `user_guid' for #<GossipnodeController:0x007fecba2966d0>
+E [2016-03-09 21:12:49.429] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:167:in `method_missing'
+E [2016-03-09 21:12:49.429] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:8:in `register'
+E [2016-03-09 21:12:49.429] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:12:49.429] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:12:49.429] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:12:49.429] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:12:49.429] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:12:49.429] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:12:49.429] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:12:49.429] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:12:49.429] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:12:49.429] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:12:49.429] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:12:49.430] [[32mChannel[0m] #<Connection::9aaceee187c8679ee986> subscribed to channel peers
+I [2016-03-09 21:12:49.430] [[32mChannel[0m] sending token
+I [2016-03-09 21:13:31.863] [[32mChannel[0m] #<Connection::9aaceee187c8679ee986> unsubscribed from channel peers
+I [2016-03-09 21:13:31.864] [[32mConnectionManager[0m] Connection closed: #<Connection::9aaceee187c8679ee986>
+I [2016-03-09 21:13:31.864] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:13:31.864] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:13:31.864] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::9aaceee187c8679ee986>
+E [2016-03-09 21:13:42.267] [[31mDispatcher[0m] ArgumentError: wrong number of arguments (1 for 2)
+E [2016-03-09 21:13:42.267] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.1/lib/active_record/relation.rb:364:in `update'
+E [2016-03-09 21:13:42.267] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:27:in `delete_user'
+E [2016-03-09 21:13:42.267] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:13:42.267] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:13:42.267] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:13:42.267] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:13:42.267] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:13:42.267] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:13:42.267] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:13:42.267] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:13:42.267] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:13:42.267] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:13:42.268] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:14:23.758] [[32mConnectionManager[0m] Connection opened: #<Connection::91a9510c34dc5669a425>
+I [2016-03-09 21:14:23.762] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 21:14:23.762] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 21:14:23.762] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"91a9510c34dc5669a425"}
+I [2016-03-09 21:14:23.762] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::91a9510c34dc5669a425>
+I [2016-03-09 21:14:23.764] [[32mDispatcher[0m] Event client_connected Finished in 0.001228 seconds
+I [2016-03-09 21:14:23.766] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 21:14:23.766] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 21:14:23.766] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 21:14:23.766] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::91a9510c34dc5669a425>
+E [2016-03-09 21:14:23.767] [[31mDispatcher[0m] NameError: undefined local variable or method `user_guid' for #<GossipnodeController:0x007fa0845a9b88>
+E [2016-03-09 21:14:23.767] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:167:in `method_missing'
+E [2016-03-09 21:14:23.767] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:8:in `register'
+E [2016-03-09 21:14:23.767] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:14:23.767] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:14:23.767] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:14:23.768] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:14:23.768] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:14:23.768] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:14:23.768] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:14:23.768] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:14:23.768] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:14:23.768] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:14:23.768] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:14:23.768] [[32mChannel[0m] #<Connection::91a9510c34dc5669a425> subscribed to channel peers
+I [2016-03-09 21:14:23.768] [[32mChannel[0m] sending token
+I [2016-03-09 21:17:00.554] [[32mConnectionManager[0m] Connection opened: #<Connection::e78ddaaf435c9997cf76>
+I [2016-03-09 21:17:00.554] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 21:17:00.554] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 21:17:00.554] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"e78ddaaf435c9997cf76"}
+I [2016-03-09 21:17:00.554] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e78ddaaf435c9997cf76>
+I [2016-03-09 21:17:00.555] [[32mDispatcher[0m] Event client_connected Finished in 0.00037 seconds
+I [2016-03-09 21:17:00.562] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 21:17:00.562] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 21:17:00.562] [[32mDispatcher[0m] [36mData:[0m "0ef83e43-5226-4855-b0f3-59e7a0622e1d"
+I [2016-03-09 21:17:00.562] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e78ddaaf435c9997cf76>
+E [2016-03-09 21:17:00.563] [[31mDispatcher[0m] NameError: undefined local variable or method `user_guid' for #<GossipnodeController:0x007fa08b5edb88>
+E [2016-03-09 21:17:00.563] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:167:in `method_missing'
+E [2016-03-09 21:17:00.563] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:8:in `register'
+E [2016-03-09 21:17:00.563] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:17:00.563] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:17:00.563] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:17:00.563] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:17:00.563] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:17:00.563] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:17:00.563] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:17:00.563] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:17:00.563] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:17:00.563] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:17:00.563] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:17:00.564] [[32mChannel[0m] #<Connection::e78ddaaf435c9997cf76> subscribed to channel peers
+I [2016-03-09 21:17:00.564] [[32mChannel[0m] sending token
+I [2016-03-09 21:17:25.593] [[32mChannel[0m] #<Connection::e78ddaaf435c9997cf76> unsubscribed from channel peers
+I [2016-03-09 21:17:25.593] [[32mConnectionManager[0m] Connection closed: #<Connection::e78ddaaf435c9997cf76>
+I [2016-03-09 21:17:25.593] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:17:25.593] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:17:25.593] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e78ddaaf435c9997cf76>
+E [2016-03-09 21:18:08.279] [[31mDispatcher[0m] ArgumentError: wrong number of arguments (1 for 2)
+E [2016-03-09 21:18:08.279] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.1/lib/active_record/relation.rb:364:in `update'
+E [2016-03-09 21:18:08.279] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:27:in `delete_user'
+E [2016-03-09 21:18:08.279] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:18:08.279] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:18:08.279] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:18:08.279] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:18:08.279] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:18:08.279] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:18:08.279] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:18:08.279] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:18:08.280] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:18:08.280] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:18:08.280] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:18:08.281] [[32mChannel[0m] #<Connection::91a9510c34dc5669a425> unsubscribed from channel peers
+I [2016-03-09 21:18:08.281] [[32mConnectionManager[0m] Connection closed: #<Connection::91a9510c34dc5669a425>
+I [2016-03-09 21:18:08.281] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:18:08.281] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:18:08.281] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::91a9510c34dc5669a425>
+E [2016-03-09 21:18:14.478] [[31mDispatcher[0m] ArgumentError: wrong number of arguments (1 for 2)
+E [2016-03-09 21:18:14.478] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.1/lib/active_record/relation.rb:364:in `update'
+E [2016-03-09 21:18:14.478] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:27:in `delete_user'
+E [2016-03-09 21:18:14.478] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:18:14.478] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:18:14.478] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:18:14.478] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:18:14.478] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:18:14.478] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:18:14.478] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:18:14.478] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:18:14.478] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:18:14.478] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:18:14.478] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:19:26.446] [[32mConnectionManager[0m] Connection opened: #<Connection::e92861c19e3b4b57fb67>
+I [2016-03-09 21:19:26.447] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 21:19:26.447] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 21:19:26.447] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"e92861c19e3b4b57fb67"}
+I [2016-03-09 21:19:26.447] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e92861c19e3b4b57fb67>
+I [2016-03-09 21:19:26.447] [[32mDispatcher[0m] Event client_connected Finished in 0.00038 seconds
+I [2016-03-09 21:19:26.457] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 21:19:26.457] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 21:19:26.457] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 21:19:26.457] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e92861c19e3b4b57fb67>
+E [2016-03-09 21:19:26.458] [[31mDispatcher[0m] NameError: undefined local variable or method `user_guid' for #<GossipnodeController:0x007fa08ab2a700>
+E [2016-03-09 21:19:26.458] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:167:in `method_missing'
+E [2016-03-09 21:19:26.458] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:8:in `register'
+E [2016-03-09 21:19:26.458] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:19:26.458] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:19:26.458] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:19:26.458] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:19:26.458] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:19:26.458] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:19:26.458] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:19:26.458] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:19:26.458] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:19:26.458] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:19:26.459] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:19:26.459] [[32mChannel[0m] #<Connection::e92861c19e3b4b57fb67> subscribed to channel peers
+I [2016-03-09 21:19:26.459] [[32mChannel[0m] sending token
+I [2016-03-09 21:19:35.408] [[32mChannel[0m] #<Connection::e92861c19e3b4b57fb67> unsubscribed from channel peers
+I [2016-03-09 21:19:35.408] [[32mConnectionManager[0m] Connection closed: #<Connection::e92861c19e3b4b57fb67>
+I [2016-03-09 21:19:35.408] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:19:35.408] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:19:35.408] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::e92861c19e3b4b57fb67>
+E [2016-03-09 21:22:03.916] [[31mDispatcher[0m] ArgumentError: wrong number of arguments (1 for 2)
+E [2016-03-09 21:22:03.916] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activerecord-4.2.1/lib/active_record/relation.rb:364:in `update'
+E [2016-03-09 21:22:03.916] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:27:in `delete_user'
+E [2016-03-09 21:22:03.917] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:22:03.917] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:22:03.917] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:22:03.917] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:22:03.917] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:22:03.917] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:22:03.917] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:22:03.917] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:22:03.917] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:22:03.917] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:22:03.917] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:22:12.563] [[32mConnectionManager[0m] Connection opened: #<Connection::0e210af8dd469a6051ac>
+I [2016-03-09 21:22:12.563] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 21:22:12.563] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 21:22:12.563] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"0e210af8dd469a6051ac"}
+I [2016-03-09 21:22:12.563] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0e210af8dd469a6051ac>
+I [2016-03-09 21:22:12.564] [[32mDispatcher[0m] Event client_connected Finished in 0.000459 seconds
+I [2016-03-09 21:22:12.581] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 21:22:12.581] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 21:22:12.581] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 21:22:12.581] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0e210af8dd469a6051ac>
+E [2016-03-09 21:22:12.582] [[31mDispatcher[0m] NameError: undefined local variable or method `user_guid' for #<GossipnodeController:0x007fa08555a8c0>
+E [2016-03-09 21:22:12.582] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:167:in `method_missing'
+E [2016-03-09 21:22:12.582] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:8:in `register'
+E [2016-03-09 21:22:12.582] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:22:12.582] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:22:12.582] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:22:12.582] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:22:12.582] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:22:12.582] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:22:12.582] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:22:12.582] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:22:12.582] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:22:12.582] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:22:12.582] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:22:12.583] [[32mChannel[0m] #<Connection::0e210af8dd469a6051ac> subscribed to channel peers
+I [2016-03-09 21:22:12.583] [[32mChannel[0m] sending token
+I [2016-03-09 21:22:17.658] [[32mChannel[0m] #<Connection::0e210af8dd469a6051ac> unsubscribed from channel peers
+I [2016-03-09 21:22:17.659] [[32mConnectionManager[0m] Connection closed: #<Connection::0e210af8dd469a6051ac>
+I [2016-03-09 21:22:17.660] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:22:17.660] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:22:17.661] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::0e210af8dd469a6051ac>
+E [2016-03-09 21:22:48.201] [[31mDispatcher[0m] NoMethodError: undefined method `update' for nil:NilClass
+E [2016-03-09 21:22:48.201] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:29:in `delete_user'
+E [2016-03-09 21:22:48.201] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:22:48.201] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:22:48.202] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:22:48.202] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:22:48.202] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:22:48.202] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:22:48.202] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:22:48.202] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:22:48.202] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:22:48.202] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:22:48.202] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:23:17.756] [[32mConnectionManager[0m] Connection opened: #<Connection::6ba57f375e43cbffd254>
+I [2016-03-09 21:23:17.757] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 21:23:17.757] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 21:23:17.757] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"6ba57f375e43cbffd254"}
+I [2016-03-09 21:23:17.757] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6ba57f375e43cbffd254>
+I [2016-03-09 21:23:17.757] [[32mDispatcher[0m] Event client_connected Finished in 0.000382 seconds
+I [2016-03-09 21:23:17.769] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 21:23:17.769] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 21:23:17.769] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 21:23:17.769] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6ba57f375e43cbffd254>
+E [2016-03-09 21:23:17.771] [[31mDispatcher[0m] NameError: undefined local variable or method `user_guid' for #<GossipnodeController:0x007fa084341c10>
+E [2016-03-09 21:23:17.771] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:167:in `method_missing'
+E [2016-03-09 21:23:17.771] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:8:in `register'
+E [2016-03-09 21:23:17.771] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:23:17.771] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:23:17.771] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:23:17.771] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:23:17.771] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:23:17.771] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:23:17.771] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:23:17.771] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:23:17.771] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:23:17.771] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:23:17.771] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:23:17.772] [[32mChannel[0m] #<Connection::6ba57f375e43cbffd254> subscribed to channel peers
+I [2016-03-09 21:23:17.772] [[32mChannel[0m] sending token
+I [2016-03-09 21:23:21.138] [[32mChannel[0m] #<Connection::6ba57f375e43cbffd254> unsubscribed from channel peers
+I [2016-03-09 21:23:21.138] [[32mConnectionManager[0m] Connection closed: #<Connection::6ba57f375e43cbffd254>
+I [2016-03-09 21:23:21.139] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:23:21.139] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:23:21.139] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::6ba57f375e43cbffd254>
+E [2016-03-09 21:23:41.723] [[31mDispatcher[0m] NameError: undefined local variable or method `user' for #<GossipnodeController:0x007fa08b3835a0>
+E [2016-03-09 21:23:41.723] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:167:in `method_missing'
+E [2016-03-09 21:23:41.723] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:28:in `delete_user'
+E [2016-03-09 21:23:41.723] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:23:41.723] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:23:41.723] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:23:41.723] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:23:41.723] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:23:41.723] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:23:41.723] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:23:41.724] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:23:41.724] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:23:41.724] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:23:41.724] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:23:51.549] [[32mConnectionManager[0m] Connection opened: #<Connection::789d4c1474ea5ec6ebd2>
+I [2016-03-09 21:23:51.550] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 21:23:51.550] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 21:23:51.550] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"789d4c1474ea5ec6ebd2"}
+I [2016-03-09 21:23:51.550] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::789d4c1474ea5ec6ebd2>
+I [2016-03-09 21:23:51.551] [[32mDispatcher[0m] Event client_connected Finished in 0.000672 seconds
+I [2016-03-09 21:23:51.565] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 21:23:51.565] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 21:23:51.565] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 21:23:51.565] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::789d4c1474ea5ec6ebd2>
+E [2016-03-09 21:23:51.567] [[31mDispatcher[0m] NameError: undefined local variable or method `user_guid' for #<GossipnodeController:0x007fa08b59af28>
+E [2016-03-09 21:23:51.567] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:167:in `method_missing'
+E [2016-03-09 21:23:51.567] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:8:in `register'
+E [2016-03-09 21:23:51.567] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:23:51.567] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:23:51.567] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:23:51.567] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:23:51.567] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:23:51.567] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:23:51.567] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:23:51.567] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:23:51.567] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:23:51.567] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:23:51.567] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:23:51.568] [[32mChannel[0m] #<Connection::789d4c1474ea5ec6ebd2> subscribed to channel peers
+I [2016-03-09 21:23:51.568] [[32mChannel[0m] sending token
+I [2016-03-09 21:23:54.864] [[32mChannel[0m] #<Connection::789d4c1474ea5ec6ebd2> unsubscribed from channel peers
+I [2016-03-09 21:23:54.865] [[32mConnectionManager[0m] Connection closed: #<Connection::789d4c1474ea5ec6ebd2>
+I [2016-03-09 21:23:54.865] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:23:54.865] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:23:54.865] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::789d4c1474ea5ec6ebd2>
+E [2016-03-09 21:24:16.253] [[31mDispatcher[0m] NameError: undefined local variable or method `user' for #<GossipnodeController:0x007fa08a97af68>
+E [2016-03-09 21:24:16.253] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:167:in `method_missing'
+E [2016-03-09 21:24:16.253] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:28:in `delete_user'
+E [2016-03-09 21:24:16.253] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:24:16.253] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:24:16.253] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:24:16.253] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:24:16.253] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:24:16.253] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:24:16.253] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:24:16.253] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:24:16.253] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:24:16.253] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:24:16.253] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:24:27.794] [[32mConnectionManager[0m] Connection opened: #<Connection::8041c1244ed892f2bc72>
+I [2016-03-09 21:24:27.801] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 21:24:27.802] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 21:24:27.802] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"8041c1244ed892f2bc72"}
+I [2016-03-09 21:24:27.802] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::8041c1244ed892f2bc72>
+I [2016-03-09 21:24:27.806] [[32mDispatcher[0m] Event client_connected Finished in 0.000338 seconds
+I [2016-03-09 21:24:27.875] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 21:24:27.876] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 21:24:27.876] [[32mDispatcher[0m] [36mData:[0m "0ef83e43-5226-4855-b0f3-59e7a0622e1d"
+I [2016-03-09 21:24:27.876] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::8041c1244ed892f2bc72>
+E [2016-03-09 21:24:27.885] [[31mDispatcher[0m] NameError: undefined local variable or method `user_guid' for #<GossipnodeController:0x007fa08ab2a930>
+E [2016-03-09 21:24:27.885] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:167:in `method_missing'
+E [2016-03-09 21:24:27.886] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:8:in `register'
+E [2016-03-09 21:24:27.886] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:24:27.887] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:24:27.888] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:24:27.888] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:24:27.888] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:24:27.888] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:24:27.889] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:24:27.889] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:24:27.889] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:24:27.890] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:24:27.890] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:24:27.895] [[32mChannel[0m] #<Connection::8041c1244ed892f2bc72> subscribed to channel peers
+I [2016-03-09 21:24:27.896] [[32mChannel[0m] sending token
+I [2016-03-09 21:24:30.704] [[32mChannel[0m] #<Connection::8041c1244ed892f2bc72> unsubscribed from channel peers
+I [2016-03-09 21:24:30.704] [[32mConnectionManager[0m] Connection closed: #<Connection::8041c1244ed892f2bc72>
+I [2016-03-09 21:24:30.704] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:24:30.704] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:24:30.704] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::8041c1244ed892f2bc72>
+I [2016-03-09 21:24:42.654] [[32mDispatcher[0m] Event client_disconnected Finished in 11.949763 seconds
+I [2016-03-09 21:25:18.705] [[32mConnectionManager[0m] Connection opened: #<Connection::4633f6f91acaa867558e>
+I [2016-03-09 21:25:18.706] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 21:25:18.706] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 21:25:18.706] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"4633f6f91acaa867558e"}
+I [2016-03-09 21:25:18.706] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4633f6f91acaa867558e>
+I [2016-03-09 21:25:18.706] [[32mDispatcher[0m] Event client_connected Finished in 0.000397 seconds
+I [2016-03-09 21:25:18.712] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 21:25:18.713] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 21:25:18.713] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 21:25:18.713] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4633f6f91acaa867558e>
+E [2016-03-09 21:25:18.713] [[31mDispatcher[0m] NameError: undefined local variable or method `user_guid' for #<GossipnodeController:0x007fa08b6ec2a0>
+E [2016-03-09 21:25:18.713] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:167:in `method_missing'
+E [2016-03-09 21:25:18.713] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:8:in `register'
+E [2016-03-09 21:25:18.714] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:25:18.714] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:25:18.714] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:25:18.714] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:25:18.714] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:25:18.714] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:25:18.714] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:25:18.714] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:25:18.714] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:25:18.714] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:25:18.714] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:25:18.715] [[32mChannel[0m] #<Connection::4633f6f91acaa867558e> subscribed to channel peers
+I [2016-03-09 21:25:18.715] [[32mChannel[0m] sending token
+I [2016-03-09 21:26:03.353] [[32mChannel[0m] #<Connection::4633f6f91acaa867558e> unsubscribed from channel peers
+I [2016-03-09 21:26:03.353] [[32mConnectionManager[0m] Connection closed: #<Connection::4633f6f91acaa867558e>
+I [2016-03-09 21:26:03.354] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:26:03.354] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:26:03.354] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::4633f6f91acaa867558e>
+I [2016-03-09 21:26:03.355] [[32mDispatcher[0m] Event client_disconnected Finished in 0.001522 seconds
+I [2016-03-09 21:26:10.414] [[32mConnectionManager[0m] Connection opened: #<Connection::17f25c556cec59cf8238>
+I [2016-03-09 21:26:10.414] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 21:26:10.414] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 21:26:10.414] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"17f25c556cec59cf8238"}
+I [2016-03-09 21:26:10.414] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::17f25c556cec59cf8238>
+I [2016-03-09 21:26:10.415] [[32mDispatcher[0m] Event client_connected Finished in 0.000394 seconds
+I [2016-03-09 21:26:10.428] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 21:26:10.428] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 21:26:10.428] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 21:26:10.428] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::17f25c556cec59cf8238>
+E [2016-03-09 21:26:50.774] [[31mDispatcher[0m] NameError: undefined local variable or method `user_guid' for #<GossipnodeController:0x007fa08b2301f8>
+E [2016-03-09 21:26:50.774] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:167:in `method_missing'
+E [2016-03-09 21:26:50.774] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:9:in `register'
+E [2016-03-09 21:26:50.774] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:26:50.774] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:26:50.774] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:26:50.775] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:26:50.775] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:26:50.775] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:26:50.775] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:26:50.775] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:26:50.775] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:26:50.775] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:26:50.775] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:26:50.775] [[32mChannel[0m] #<Connection::17f25c556cec59cf8238> subscribed to channel peers
+I [2016-03-09 21:26:50.775] [[32mChannel[0m] sending token
+I [2016-03-09 21:27:30.440] [[32mChannel[0m] #<Connection::17f25c556cec59cf8238> unsubscribed from channel peers
+I [2016-03-09 21:27:30.440] [[32mConnectionManager[0m] Connection closed: #<Connection::17f25c556cec59cf8238>
+I [2016-03-09 21:27:30.440] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:27:30.440] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:27:30.440] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::17f25c556cec59cf8238>
+I [2016-03-09 21:27:30.442] [[32mDispatcher[0m] Event client_disconnected Finished in 0.00124 seconds
+I [2016-03-09 21:27:36.311] [[32mConnectionManager[0m] Connection opened: #<Connection::20fbbdb920f3ad24c522>
+I [2016-03-09 21:27:36.312] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 21:27:36.312] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 21:27:36.312] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"20fbbdb920f3ad24c522"}
+I [2016-03-09 21:27:36.312] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::20fbbdb920f3ad24c522>
+I [2016-03-09 21:27:36.313] [[32mDispatcher[0m] Event client_connected Finished in 0.00058 seconds
+I [2016-03-09 21:27:36.330] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 21:27:36.330] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 21:27:36.330] [[32mDispatcher[0m] [36mData:[0m "c22b071d-d853-44ab-9ca2-8ef2c0efab62"
+I [2016-03-09 21:27:36.330] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::20fbbdb920f3ad24c522>
+E [2016-03-09 21:27:58.668] [[31mDispatcher[0m] NameError: undefined local variable or method `user_guid' for #<GossipnodeController:0x007fa084718dc0>
+E [2016-03-09 21:27:58.668] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:167:in `method_missing'
+E [2016-03-09 21:27:58.668] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:9:in `register'
+E [2016-03-09 21:27:58.668] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:27:58.668] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:27:58.668] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:27:58.669] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:27:58.669] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:27:58.669] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:27:58.669] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:27:58.669] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:27:58.669] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:27:58.669] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:27:58.669] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:27:58.669] [[32mChannel[0m] #<Connection::20fbbdb920f3ad24c522> subscribed to channel peers
+I [2016-03-09 21:27:58.670] [[32mChannel[0m] sending token
+I [2016-03-09 21:28:02.352] [[32mChannel[0m] #<Connection::20fbbdb920f3ad24c522> unsubscribed from channel peers
+I [2016-03-09 21:28:02.352] [[32mConnectionManager[0m] Connection closed: #<Connection::20fbbdb920f3ad24c522>
+I [2016-03-09 21:28:02.352] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:28:02.352] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:28:02.352] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::20fbbdb920f3ad24c522>
+I [2016-03-09 21:28:02.354] [[32mDispatcher[0m] Event client_disconnected Finished in 0.001473 seconds
+I [2016-03-09 21:28:17.713] [[32mConnectionManager[0m] Connection opened: #<Connection::8b0feb0b7040afa09ce1>
+I [2016-03-09 21:28:17.714] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 21:28:17.714] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 21:28:17.714] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"8b0feb0b7040afa09ce1"}
+I [2016-03-09 21:28:17.714] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::8b0feb0b7040afa09ce1>
+I [2016-03-09 21:28:17.714] [[32mDispatcher[0m] Event client_connected Finished in 0.000517 seconds
+I [2016-03-09 21:28:17.731] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 21:28:17.732] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 21:28:17.732] [[32mDispatcher[0m] [36mData:[0m "c22b071d-d853-44ab-9ca2-8ef2c0efab62"
+I [2016-03-09 21:28:17.732] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::8b0feb0b7040afa09ce1>
+I [2016-03-09 21:28:49.267] [[32mChannel[0m] [peers] #<ActiveRecord::Relation [#<User id: 1, username: "matty_ice", uuid: "c22b071d-d853-44ab-9ca2-8ef2c0efab62", created_at: "2016-02-28 04:29:45", updated_at: "2016-03-10 04:28:17", active: "t">, #<User id: 2, username: "titus", uuid: "bdcde4f3-cf32-4ee0-b954-d5a5f9044685", created_at: "2016-02-28 04:30:54", updated_at: "2016-03-10 04:26:10", active: "t">, #<User id: 6, username: "boogie", uuid: "0ef83e43-5226-4855-b0f3-59e7a0622e1d", created_at: "2016-03-02 05:35:45", updated_at: "2016-03-10 04:24:26", active: "t">]>
+I [2016-03-09 21:28:49.268] [[32mDispatcher[0m] Event register Finished in 31.535769 seconds
+I [2016-03-09 21:28:49.268] [[32mChannel[0m] #<Connection::8b0feb0b7040afa09ce1> subscribed to channel peers
+I [2016-03-09 21:28:49.268] [[32mChannel[0m] sending token
+I [2016-03-09 21:29:06.379] [[32mChannel[0m] #<Connection::8b0feb0b7040afa09ce1> unsubscribed from channel peers
+I [2016-03-09 21:29:06.381] [[32mConnectionManager[0m] Connection closed: #<Connection::8b0feb0b7040afa09ce1>
+I [2016-03-09 21:29:06.382] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:29:06.383] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:29:06.383] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::8b0feb0b7040afa09ce1>
+E [2016-03-09 21:29:06.164] [[31mDispatcher[0m] NameError: undefined local variable or method `user' for #<GossipnodeController:0x007fa083be8068>
+E [2016-03-09 21:29:06.164] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:167:in `method_missing'
+E [2016-03-09 21:29:06.164] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:29:in `delete_user'
+E [2016-03-09 21:29:06.164] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:29:06.164] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:29:06.164] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:29:06.164] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:29:06.164] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:29:06.164] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:29:06.164] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:29:06.164] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:29:06.164] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:29:06.164] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:29:06.164] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:29:23.266] [[32mConnectionManager[0m] Connection opened: #<Connection::8a683cd0e9e4737e6b52>
+I [2016-03-09 21:29:23.267] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 21:29:23.267] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 21:29:23.267] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"8a683cd0e9e4737e6b52"}
+I [2016-03-09 21:29:23.267] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::8a683cd0e9e4737e6b52>
+I [2016-03-09 21:29:23.268] [[32mDispatcher[0m] Event client_connected Finished in 0.000365 seconds
+I [2016-03-09 21:29:23.274] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 21:29:23.274] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 21:29:23.274] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 21:29:23.274] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::8a683cd0e9e4737e6b52>
+I [2016-03-09 21:29:29.161] [[32mChannel[0m] [peers] #<ActiveRecord::Relation [#<User id: 1, username: "matty_ice", uuid: "c22b071d-d853-44ab-9ca2-8ef2c0efab62", created_at: "2016-02-28 04:29:45", updated_at: "2016-03-10 04:28:17", active: "t">, #<User id: 2, username: "titus", uuid: "bdcde4f3-cf32-4ee0-b954-d5a5f9044685", created_at: "2016-02-28 04:30:54", updated_at: "2016-03-10 04:29:23", active: "t">, #<User id: 6, username: "boogie", uuid: "0ef83e43-5226-4855-b0f3-59e7a0622e1d", created_at: "2016-03-02 05:35:45", updated_at: "2016-03-10 04:24:26", active: "t">]>
+I [2016-03-09 21:29:29.161] [[32mDispatcher[0m] Event register Finished in 5.886919 seconds
+I [2016-03-09 21:29:29.162] [[32mChannel[0m] #<Connection::8a683cd0e9e4737e6b52> subscribed to channel peers
+I [2016-03-09 21:29:29.162] [[32mChannel[0m] sending token
+I [2016-03-09 21:29:41.401] [[32mChannel[0m] #<Connection::8a683cd0e9e4737e6b52> unsubscribed from channel peers
+I [2016-03-09 21:29:41.401] [[32mConnectionManager[0m] Connection closed: #<Connection::8a683cd0e9e4737e6b52>
+I [2016-03-09 21:29:41.402] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:29:41.402] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:29:41.402] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::8a683cd0e9e4737e6b52>
+E [2016-03-09 21:30:39.170] [[31mDispatcher[0m] NameError: undefined local variable or method `user' for #<GossipnodeController:0x007fa08a8ad090>
+E [2016-03-09 21:30:39.170] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:167:in `method_missing'
+E [2016-03-09 21:30:39.170] [[31mDispatcher[0m] /Users/matthew.freeman/462/462_gossip/app/controllers/gossipnode_controller.rb:29:in `delete_user'
+E [2016-03-09 21:30:39.170] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/base_controller.rb:27:in `process_action'
+E [2016-03-09 21:30:39.170] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+E [2016-03-09 21:30:39.170] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `call'
+E [2016-03-09 21:30:39.170] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:88:in `_run_callbacks'
+E [2016-03-09 21:30:39.170] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:776:in `_run_process_action_callbacks'
+E [2016-03-09 21:30:39.170] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/activesupport-4.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+E [2016-03-09 21:30:39.170] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/actionpack-4.2.1/lib/abstract_controller/callbacks.rb:19:in `process_action'
+E [2016-03-09 21:30:39.170] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:65:in `block (3 levels) in route'
+E [2016-03-09 21:30:39.170] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `call'
+E [2016-03-09 21:30:39.170] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/logging.rb:66:in `log_event'
+E [2016-03-09 21:30:39.170] [[31mDispatcher[0m] /Users/matthew.freeman/.rvm/gems/ruby-2.2.2/gems/websocket-rails-0.7.0/lib/websocket_rails/dispatcher.rb:62:in `block (2 levels) in route'
+
+I [2016-03-09 21:30:49.496] [[32mConnectionManager[0m] Connection opened: #<Connection::8ef1e2d7eee7bffe0b42>
+I [2016-03-09 21:30:49.496] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 21:30:49.497] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 21:30:49.497] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"8ef1e2d7eee7bffe0b42"}
+I [2016-03-09 21:30:49.497] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::8ef1e2d7eee7bffe0b42>
+I [2016-03-09 21:30:49.497] [[32mDispatcher[0m] Event client_connected Finished in 0.000407 seconds
+I [2016-03-09 21:30:49.513] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 21:30:49.513] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 21:30:49.514] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 21:30:49.514] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::8ef1e2d7eee7bffe0b42>
+I [2016-03-09 21:30:49.516] [[32mChannel[0m] [peers] #<ActiveRecord::Relation [#<User id: 1, username: "matty_ice", uuid: "c22b071d-d853-44ab-9ca2-8ef2c0efab62", created_at: "2016-02-28 04:29:45", updated_at: "2016-03-10 04:28:17", active: "t">, #<User id: 2, username: "titus", uuid: "bdcde4f3-cf32-4ee0-b954-d5a5f9044685", created_at: "2016-02-28 04:30:54", updated_at: "2016-03-10 04:30:49", active: "t">, #<User id: 6, username: "boogie", uuid: "0ef83e43-5226-4855-b0f3-59e7a0622e1d", created_at: "2016-03-02 05:35:45", updated_at: "2016-03-10 04:24:26", active: "t">]>
+I [2016-03-09 21:30:49.516] [[32mDispatcher[0m] Event register Finished in 0.002049 seconds
+I [2016-03-09 21:30:49.516] [[32mChannel[0m] #<Connection::8ef1e2d7eee7bffe0b42> subscribed to channel peers
+I [2016-03-09 21:30:49.516] [[32mChannel[0m] sending token
+I [2016-03-09 21:30:54.794] [[32mChannel[0m] #<Connection::8ef1e2d7eee7bffe0b42> unsubscribed from channel peers
+I [2016-03-09 21:30:54.795] [[32mConnectionManager[0m] Connection closed: #<Connection::8ef1e2d7eee7bffe0b42>
+I [2016-03-09 21:30:54.795] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:30:54.795] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:30:54.795] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::8ef1e2d7eee7bffe0b42>
+I [2016-03-09 21:31:01.298] [[32mDispatcher[0m] Event client_disconnected Finished in 6.502728 seconds
+I [2016-03-09 21:32:28.976] [[32mConnectionManager[0m] Connection opened: #<Connection::07ab5e5dcb052baf854a>
+I [2016-03-09 21:32:28.977] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 21:32:28.977] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 21:32:28.977] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"07ab5e5dcb052baf854a"}
+I [2016-03-09 21:32:28.977] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::07ab5e5dcb052baf854a>
+I [2016-03-09 21:32:28.978] [[32mDispatcher[0m] Event client_connected Finished in 0.00045 seconds
+I [2016-03-09 21:32:28.985] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 21:32:28.985] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 21:32:28.985] [[32mDispatcher[0m] [36mData:[0m "bdcde4f3-cf32-4ee0-b954-d5a5f9044685"
+I [2016-03-09 21:32:28.985] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::07ab5e5dcb052baf854a>
+I [2016-03-09 21:32:28.987] [[32mChannel[0m] [peers] #<ActiveRecord::Relation [#<User id: 2, username: "titus", uuid: "bdcde4f3-cf32-4ee0-b954-d5a5f9044685", created_at: "2016-02-28 04:30:54", updated_at: "2016-03-10 04:32:28", active: "t">]>
+I [2016-03-09 21:32:28.987] [[32mDispatcher[0m] Event register Finished in 0.00214 seconds
+I [2016-03-09 21:32:28.987] [[32mChannel[0m] #<Connection::07ab5e5dcb052baf854a> subscribed to channel peers
+I [2016-03-09 21:32:28.987] [[32mChannel[0m] sending token
+I [2016-03-09 21:32:40.322] [[32mConnectionManager[0m] Connection opened: #<Connection::ec86b041b0d395375731>
+I [2016-03-09 21:32:40.323] [[32mDispatcher[0m] Started Event: client_connected
+I [2016-03-09 21:32:40.323] [[32mDispatcher[0m] [36mName:[0m client_connected
+I [2016-03-09 21:32:40.323] [[32mDispatcher[0m] [36mData:[0m {"connection_id"=>"ec86b041b0d395375731"}
+I [2016-03-09 21:32:40.323] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::ec86b041b0d395375731>
+I [2016-03-09 21:32:40.324] [[32mDispatcher[0m] Event client_connected Finished in 0.000377 seconds
+I [2016-03-09 21:32:40.330] [[32mDispatcher[0m] Started Event: register
+I [2016-03-09 21:32:40.330] [[32mDispatcher[0m] [36mName:[0m register
+I [2016-03-09 21:32:40.330] [[32mDispatcher[0m] [36mData:[0m "fadf2773-374b-4672-900c-13322ef96061"
+I [2016-03-09 21:32:40.331] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::ec86b041b0d395375731>
+I [2016-03-09 21:32:40.332] [[32mChannel[0m] [peers] #<ActiveRecord::Relation [#<User id: 2, username: "titus", uuid: "bdcde4f3-cf32-4ee0-b954-d5a5f9044685", created_at: "2016-02-28 04:30:54", updated_at: "2016-03-10 04:32:28", active: "t">, #<User id: 5, username: "clark", uuid: "fadf2773-374b-4672-900c-13322ef96061", created_at: "2016-03-02 05:26:47", updated_at: "2016-03-10 04:32:40", active: "t">]>
+I [2016-03-09 21:32:40.333] [[32mDispatcher[0m] Event register Finished in 0.002436 seconds
+I [2016-03-09 21:32:40.333] [[32mChannel[0m] #<Connection::ec86b041b0d395375731> subscribed to channel peers
+I [2016-03-09 21:32:40.333] [[32mChannel[0m] sending token
+I [2016-03-09 21:32:46.461] [[32mChannel[0m] #<Connection::07ab5e5dcb052baf854a> unsubscribed from channel peers
+I [2016-03-09 21:32:46.475] [[32mConnectionManager[0m] Connection closed: #<Connection::07ab5e5dcb052baf854a>
+I [2016-03-09 21:32:46.488] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:32:46.493] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:32:46.501] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::07ab5e5dcb052baf854a>
+I [2016-03-09 21:32:46.103] [[32mDispatcher[0m] Event client_disconnected Finished in 0.00528 seconds
+I [2016-03-09 21:32:57.665] [[32mChannel[0m] #<Connection::ec86b041b0d395375731> unsubscribed from channel peers
+I [2016-03-09 21:32:57.665] [[32mConnectionManager[0m] Connection closed: #<Connection::ec86b041b0d395375731>
+I [2016-03-09 21:32:57.665] [[32mDispatcher[0m] Started Event: client_disconnected
+I [2016-03-09 21:32:57.665] [[32mDispatcher[0m] [36mName:[0m client_disconnected
+I [2016-03-09 21:32:57.665] [[32mDispatcher[0m] [36mConnection:[0m #<Connection::ec86b041b0d395375731>
+I [2016-03-09 21:32:57.670] [[32mDispatcher[0m] Event client_disconnected Finished in 0.004343 seconds

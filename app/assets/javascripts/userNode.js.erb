@@ -17,12 +17,13 @@ const GossipNode = {
     username: '',
     uuid: '',
     dispatcher: {},
+    peerChannel: {},
     peers: ['ABC-123', 'DEF-456', 'GHI-789'],
     peerMap: {
       'ABC-123': 'http://localhost:3000/gossip/ABC-123', 
       'DEF-456': 'http://localhost:3000/gossip/DEF-456', 
       'GHI-789': 'http://localhost:3000/gossip/GHI-789',
-    }
+    },
     numSent: 0,
     messageQueue: ['message1', 'message2','message3'],
     messagesSent: [],
@@ -36,13 +37,19 @@ const GossipNode = {
     console.log('onConnectionOpen fixed, here the data', data);
     console.log('Connection open, attempting to trigger event');
     this.state.dispatcher.trigger('register', this.state.uuid);
+    this.state.peerChannel = this.state.dispatcher.subscribe('peers');
+    this.state.peerChannel.bind('updated_peers', this.updatePeers.bind(this));
+  },
+
+  updatePeers: function(data) {
+    console.log('Peers update', data);
   },
 
   onMessageReceived: function(data) {
     console.log('Message received', data);
   },
 
-  propagate: function(this) {
+  propagate: function() {
     console.log('send message');
     const peer = this.getPeer();
     if (!peer.length) {
@@ -50,7 +57,7 @@ const GossipNode = {
       return;
     }
 
-    const message = prepareMessage(peer);
+    const message = this.prepareMessage(peer);
     if ($.isEmptyObject(message)) {
       console.log('no message to send');
       return;
@@ -74,9 +81,9 @@ const GossipNode = {
   prepareMessage: function(peer) {
     // idea to use this kind of binary random pick from: http://stackoverflow.com/questions/9730966/how-to-decide-between-two-numbers-randomly-using-javascript
     if (Math.round(Math.random())) {
-      return prepareWant(peer);
+      return this.prepareWant(peer);
     } else {
-      return prepareRumor(peer);
+      return this.prepareRumor(peer);
     }
   },
 
@@ -98,8 +105,8 @@ const GossipNode = {
         'Rumor': {
           'MessageID': id,
           'Originator': this.state.username,
-          'Text': message;
-        }
+          'Text': message,
+        },
         'EndPoint': this.url,
       }
     }
@@ -138,6 +145,6 @@ const GossipNode = {
       alert('There was an error setting up WebSocketRails\n' + err.message);
     }
 
-    setTimeout(this.propagate(), 1000, this);
+    setInterval(this.propagate.bind(this), 100000);
   }
 }
